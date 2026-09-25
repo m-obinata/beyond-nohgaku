@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { IndexShell } from '@/components/IndexShell'
 import { FacetBrowser } from '@/components/FacetBrowser'
 import { PLAY_FACETS, playItems } from '@/content/browse'
@@ -22,6 +23,13 @@ export default function PlaysIndex() {
             <strong className="text-ink font-semibold">地域</strong> は現在の地方区分です。
             <strong className="text-ink font-semibold">形式</strong> は、霊が過去を語る曲（夢幻能）か、
             事件がその場で進む曲（現在能）かの別です。
+          </p>
+          <p className="border-rule mt-4 border-t pt-4 font-serif text-small text-muted">
+            ここに並ぶのは、記事や特集で扱っている曲です。
+            <Link href="/ja/explore" className="text-accent hover:underline">
+              能の全249曲から探す
+            </Link>
+            こともできます。
           </p>
         </div>
       }

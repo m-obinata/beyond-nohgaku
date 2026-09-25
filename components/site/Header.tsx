@@ -4,6 +4,7 @@ const NAV = [
   { href: '/ja/stories', label: '物語', romaji: 'STORIES' },
   { href: '/ja/places', label: '土地', romaji: 'PLACES' },
   { href: '/ja/plays', label: '演目', romaji: 'PLAYS' },
+  { href: '/ja/explore', label: 'さがす', romaji: 'EXPLORE' },
   { href: '/ja/features', label: '特集', romaji: 'FEATURES' },
   { href: '/ja/performances', label: '公演', romaji: 'PERFORMANCES' },
   { href: '/ja/search', label: '検索', romaji: 'SEARCH' },
