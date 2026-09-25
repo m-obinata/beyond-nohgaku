@@ -32,12 +32,15 @@ const ENDING_ORDER = [
 export const EXPLORE_FACETS: FacetDef[] = [
   { key: 'structure', label: '形式', labelEn: 'FORM', order: STRUCTURE_ORDER },
   { key: 'region', label: '地域', labelEn: 'REGION', order: REGION_ORDER },
+  {
+    key: 'pref', label: '都道府県', labelEn: 'PREFECTURE', limit: 12, scoped: true, sortByCount: true,
+    note: '地域を選ぶと、その地域の県だけに絞れます',
+  },
   { key: 'kind', label: '主役の種別', labelEn: 'SHITE', order: KIND_ORDER, limit: 14 },
   { key: 'person', label: '主な人物', labelEn: 'PERSON', limit: 12, sortByCount: true },
   { key: 'source', label: '原典', labelEn: 'SOURCE', limit: 12, sortByCount: true },
   { key: 'theme', label: '主題', labelEn: 'THEME', limit: 12, sortByCount: true },
   { key: 'ending', label: '結末', labelEn: 'ENDING', order: ENDING_ORDER, limit: 12 },
-  { key: 'pref', label: '都道府県', labelEn: 'PREFECTURE', limit: 12 },
   { key: 'school', label: '流儀', labelEn: 'SCHOOL' },
   { key: 'status', label: '記事', labelEn: 'ARTICLE' },
 ]

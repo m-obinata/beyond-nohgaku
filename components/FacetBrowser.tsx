@@ -25,6 +25,10 @@ export interface FacetDef {
   limit?: number
   /** 値を全体の出現頻度の多い順に並べる（order より優先。主題タグなど多値の軸向け） */
   sortByCount?: boolean
+  /** 他の軸の選択で候補を絞る（地域を選ぶと都道府県がその地域の県だけになる、等の下位軸） */
+  scoped?: boolean
+  /** この軸の上に置く小見出し（「地域の下位」など） */
+  note?: string
 }
 
 export interface BrowseItem {
@@ -119,10 +123,13 @@ export function FacetBrowser({ facets, items, placeholder, emptyNote }: Props) {
     return map
   }
 
-  /** 全体で存在する値（件数0でも選択肢としては出す） */
-  const allValuesFor = (key: string, order?: readonly string[], sortByCount?: boolean) => {
+  /** 全体で存在する値（件数0でも選択肢としては出す。scoped の軸は他軸の選択で候補を絞る） */
+  const allValuesFor = (key: string, order?: readonly string[], sortByCount?: boolean, scoped?: boolean) => {
+    const pool = scoped ? byText.filter((i) => matchesFacets(i, selected, key)) : items
     const total = new Map<string, number>()
-    for (const item of items) for (const v of item.facets[key] ?? []) total.set(v, (total.get(v) ?? 0) + 1)
+    for (const item of pool) for (const v of item.facets[key] ?? []) total.set(v, (total.get(v) ?? 0) + 1)
+    // scoped でも、選択済みの値は候補から消さない（外れても解除できるように）
+    for (const v of selected[key] ?? []) if (!total.has(v)) total.set(v, 0)
     const arr = [...total.keys()]
     if (sortByCount) {
       return arr.sort((a, b) => (total.get(b)! - total.get(a)!) || a.localeCompare(b, 'ja'))
@@ -183,7 +190,7 @@ export function FacetBrowser({ facets, items, placeholder, emptyNote }: Props) {
         <div className={(openOnMobile ? 'block' : 'hidden') + ' mt-6 lg:mt-8 lg:block'}>
           {facets.map((f) => {
             const counts = countsFor(f.key)
-            const all = allValuesFor(f.key, f.order, f.sortByCount)
+            const all = allValuesFor(f.key, f.order, f.sortByCount, f.scoped)
             if (all.length === 0) return null
             const limit = f.limit ?? 10
             const isOpen = expanded[f.key] ?? false
@@ -199,6 +206,7 @@ export function FacetBrowser({ facets, items, placeholder, emptyNote }: Props) {
                   <span className="label label-ink font-semibold">{f.labelEn}</span>
                   <span className="label">{f.label}</span>
                 </legend>
+                {f.note && <p className="text-muted mt-1 font-sans text-micro">{f.note}</p>}
                 <ul className="mt-1">
                   {values.map((v) => {
                     const n = counts.get(v) ?? 0
