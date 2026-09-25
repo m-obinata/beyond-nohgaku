@@ -23,6 +23,8 @@ export interface FacetDef {
   order?: readonly string[]
   /** 最初に見せる値の数。これを超える分は「もっと見る」で開く */
   limit?: number
+  /** 値を全体の出現頻度の多い順に並べる（order より優先。主題タグなど多値の軸向け） */
+  sortByCount?: boolean
 }
 
 export interface BrowseItem {
@@ -116,10 +118,13 @@ export function FacetBrowser({ facets, items, placeholder, emptyNote }: Props) {
   }
 
   /** 全体で存在する値（件数0でも選択肢としては出す） */
-  const allValuesFor = (key: string, order?: readonly string[]) => {
-    const seen = new Set<string>()
-    for (const item of items) for (const v of item.facets[key] ?? []) seen.add(v)
-    const arr = [...seen]
+  const allValuesFor = (key: string, order?: readonly string[], sortByCount?: boolean) => {
+    const total = new Map<string, number>()
+    for (const item of items) for (const v of item.facets[key] ?? []) total.set(v, (total.get(v) ?? 0) + 1)
+    const arr = [...total.keys()]
+    if (sortByCount) {
+      return arr.sort((a, b) => (total.get(b)! - total.get(a)!) || a.localeCompare(b, 'ja'))
+    }
     if (order) {
       const idx = (v: string) => {
         const i = order.indexOf(v)
@@ -176,7 +181,7 @@ export function FacetBrowser({ facets, items, placeholder, emptyNote }: Props) {
         <div className={(openOnMobile ? 'block' : 'hidden') + ' mt-6 lg:mt-8 lg:block'}>
           {facets.map((f) => {
             const counts = countsFor(f.key)
-            const all = allValuesFor(f.key, f.order)
+            const all = allValuesFor(f.key, f.order, f.sortByCount)
             if (all.length === 0) return null
             const limit = f.limit ?? 10
             const isOpen = expanded[f.key] ?? false
