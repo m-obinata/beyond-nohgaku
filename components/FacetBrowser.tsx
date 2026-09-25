@@ -58,16 +58,19 @@ interface Props {
 }
 
 type Selected = Record<string, string[]>
+type AndAxes = Record<string, boolean>
 
-const matchesFacets = (item: BrowseItem, selected: Selected, skip?: string) =>
+/** 同一軸の複数選択は既定で OR。andAxes[key] が true の軸は AND（すべて含む） */
+const matchesFacets = (item: BrowseItem, selected: Selected, andAxes: AndAxes, skip?: string) =>
   Object.entries(selected).every(([key, values]) => {
     if (key === skip || values.length === 0) return true
     const own = item.facets[key] ?? []
-    return values.some((v) => own.includes(v))
+    return andAxes[key] ? values.every((v) => own.includes(v)) : values.some((v) => own.includes(v))
   })
 
 export function FacetBrowser({ facets, items, placeholder, emptyNote }: Props) {
   const [selected, setSelected] = useState<Selected>({})
+  const [andAxes, setAndAxes] = useState<AndAxes>({})
   const [query, setQuery] = useState('')
   const [openOnMobile, setOpenOnMobile] = useState(false)
   const [expanded, setExpanded] = useState<Record<string, boolean>>({})
@@ -88,6 +91,8 @@ export function FacetBrowser({ facets, items, placeholder, emptyNote }: Props) {
     const q = sp.get('q')
     if (q) setQuery(q)
     if (Object.keys(next).length > 0) setSelected(next)
+    const and = sp.get('and')
+    if (and) setAndAxes(Object.fromEntries(and.split(',').filter(Boolean).map((k) => [k, true])))
     hydrated.current = true
     // facets は定義なので、初回のみでよい
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -97,10 +102,13 @@ export function FacetBrowser({ facets, items, placeholder, emptyNote }: Props) {
     if (!hydrated.current) return
     const sp = new URLSearchParams()
     for (const [k, v] of Object.entries(selected)) if (v.length > 0) sp.set(k, v.join(','))
+    // AND 指定は、その軸を2つ以上選んでいるときだけURLに残す
+    const andKeys = Object.keys(andAxes).filter((k) => andAxes[k] && (selected[k]?.length ?? 0) >= 2)
+    if (andKeys.length > 0) sp.set('and', andKeys.join(','))
     if (query.trim()) sp.set('q', query.trim())
     const qs = sp.toString()
     window.history.replaceState(null, '', qs ? '?' + qs : window.location.pathname)
-  }, [selected, query])
+  }, [selected, andAxes, query])
 
   const needle = query.trim().toLowerCase()
   const byText = useMemo(
@@ -109,13 +117,13 @@ export function FacetBrowser({ facets, items, placeholder, emptyNote }: Props) {
   )
 
   const results = useMemo(
-    () => byText.filter((i) => matchesFacets(i, selected)),
-    [byText, selected],
+    () => byText.filter((i) => matchesFacets(i, selected, andAxes)),
+    [byText, selected, andAxes],
   )
 
   /** その軸を除いた絞り込みでの件数 */
   const countsFor = (key: string) => {
-    const pool = byText.filter((i) => matchesFacets(i, selected, key))
+    const pool = byText.filter((i) => matchesFacets(i, selected, andAxes, key))
     const map = new Map<string, number>()
     for (const item of pool) {
       for (const v of item.facets[key] ?? []) map.set(v, (map.get(v) ?? 0) + 1)
@@ -125,7 +133,7 @@ export function FacetBrowser({ facets, items, placeholder, emptyNote }: Props) {
 
   /** 全体で存在する値（件数0でも選択肢としては出す。scoped の軸は他軸の選択で候補を絞る） */
   const allValuesFor = (key: string, order?: readonly string[], sortByCount?: boolean, scoped?: boolean) => {
-    const pool = scoped ? byText.filter((i) => matchesFacets(i, selected, key)) : items
+    const pool = scoped ? byText.filter((i) => matchesFacets(i, selected, andAxes, key)) : items
     const total = new Map<string, number>()
     for (const item of pool) for (const v of item.facets[key] ?? []) total.set(v, (total.get(v) ?? 0) + 1)
     // scoped でも、選択済みの値は候補から消さない（外れても解除できるように）
@@ -156,6 +164,7 @@ export function FacetBrowser({ facets, items, placeholder, emptyNote }: Props) {
 
   const clearAll = () => {
     setSelected({})
+    setAndAxes({})
     setQuery('')
   }
 
@@ -207,6 +216,27 @@ export function FacetBrowser({ facets, items, placeholder, emptyNote }: Props) {
                   <span className="label">{f.label}</span>
                 </legend>
                 {f.note && <p className="text-muted mt-1 font-sans text-micro">{f.note}</p>}
+                {(selected[f.key]?.length ?? 0) >= 2 && (
+                  <div className="mt-1.5 flex items-center gap-1.5" role="group" aria-label={f.label + 'の絞り込み方'}>
+                    {(['or', 'and'] as const).map((mode) => {
+                      const on = mode === 'and' ? !!andAxes[f.key] : !andAxes[f.key]
+                      return (
+                        <button
+                          key={mode}
+                          type="button"
+                          onClick={() => setAndAxes((p) => ({ ...p, [f.key]: mode === 'and' }))}
+                          aria-pressed={on}
+                          className={
+                            'label border px-2 py-0.5 transition-colors ' +
+                            (on ? 'border-accent bg-accent text-canvas' : 'border-rule text-muted hover:text-accent')
+                          }
+                        >
+                          {mode === 'and' ? 'すべて含む' : 'いずれか'}
+                        </button>
+                      )
+                    })}
+                  </div>
+                )}
                 <ul className="mt-1">
                   {values.map((v) => {
                     const n = counts.get(v) ?? 0

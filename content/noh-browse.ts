@@ -29,8 +29,17 @@ const ENDING_ORDER = [
   '調伏・退治', '退散', '仇討', '臣従', '昇天', '覚醒', '執着', '鎮魂を願う', '救済を願う',
 ]
 
+const SEASON_ORDER = ['新春', '春', '夏', '秋', '冬', '無季']
+const MONTH_ORDER = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
+
 export const EXPLORE_FACETS: FacetDef[] = [
   { key: 'structure', label: '形式', labelEn: 'FORM', order: STRUCTURE_ORDER },
+  { key: 'season', label: '季節', labelEn: 'SEASON', order: SEASON_ORDER },
+  {
+    key: 'month', label: '月', labelEn: 'MONTH', order: MONTH_ORDER, limit: 12, scoped: true,
+    note: '季節を選ぶと、その季節の月に絞れます（流儀の上演月）',
+  },
+  { key: 'author', label: '作者', labelEn: 'AUTHOR', limit: 12, sortByCount: true },
   { key: 'region', label: '地域', labelEn: 'REGION', order: REGION_ORDER },
   {
     key: 'pref', label: '都道府県', labelEn: 'PREFECTURE', limit: 12, scoped: true, sortByCount: true,
@@ -40,6 +49,10 @@ export const EXPLORE_FACETS: FacetDef[] = [
   { key: 'person', label: '主な人物', labelEn: 'PERSON', limit: 12, sortByCount: true },
   { key: 'source', label: '原典', labelEn: 'SOURCE', limit: 12, sortByCount: true },
   { key: 'theme', label: '主題', labelEn: 'THEME', limit: 12, sortByCount: true },
+  { key: 'emotion', label: '感情', labelEn: 'EMOTION', limit: 10, sortByCount: true },
+  { key: 'situation', label: '状況', labelEn: 'SITUATION', limit: 10, sortByCount: true },
+  { key: 'motif', label: 'モチーフ', labelEn: 'MOTIF', limit: 10, sortByCount: true },
+  { key: 'experience', label: '経験', labelEn: 'EXPERIENCE', limit: 10, sortByCount: true },
   { key: 'ending', label: '結末', labelEn: 'ENDING', order: ENDING_ORDER, limit: 12 },
   { key: 'school', label: '流儀', labelEn: 'SCHOOL' },
   { key: 'status', label: '記事', labelEn: 'ARTICLE' },
@@ -113,6 +126,42 @@ const ENDING_LABEL: Record<string, string> = {
 
 const SEASON_LABEL: Record<string, string> = {
   spring: '春', summer: '夏', autumn: '秋', winter: '冬', 'new-year': '新春',
+}
+
+/* ───────── 季節（正規化コード → 表示語。無い場合は無季） ───────── */
+function playSeasons(p: ReturnType<typeof getAllPlays>[number]): string[] {
+  const s = p.seasonGeneral.map((c) => SEASON_LABEL[c] ?? c)
+  return s.length ? [...new Set(s)] : ['無季']
+}
+
+/* ───────── 月（流儀ごとの上演月。schools[].season の「N月」を拾う） ───────── */
+function playMonths(p: ReturnType<typeof getAllPlays>[number]): string[] {
+  const z2h = (x: string) => x.replace(/[０-９]/g, (d) => String('０１２３４５６７８９'.indexOf(d)))
+  const ms = new Set<string>()
+  for (const s of p.schools) {
+    const m = (s.season ? z2h(s.season) : '').match(/(\d{1,2})月/)
+    if (m) ms.add(m[1] + '月')
+  }
+  return [...ms]
+}
+
+/* ───────── 作者（表記ゆれを主要人物へ寄せる。不詳・要確認は軸に出さない） ───────── */
+const AUTHOR_FIGURES: [RegExp, string][] = [
+  [/観阿弥/, '観阿弥'],
+  [/世阿弥/, '世阿弥'],
+  [/観世元雅|元雅/, '観世元雅'],
+  [/観世小次郎信光|信光/, '観世信光'],
+  [/金春禅竹|禅竹/, '金春禅竹'],
+  [/宮増/, '宮増'],
+  [/土岐善麿/, '土岐善麿'],
+  [/榎並左衛門/, '榎並左衛門'],
+]
+function playAuthors(p: ReturnType<typeof getAllPlays>[number]): string[] {
+  const raw = p.author.label
+  if (!raw || /不詳|要確認/.test(raw)) return []
+  const out: string[] = []
+  for (const [re, name] of AUTHOR_FIGURES) if (re.test(raw)) out.push(name)
+  return [...new Set(out)]
 }
 
 /* ───────── 原典（出典名 → 主要な作品・典拠にまとめる） ─────────
@@ -213,7 +262,7 @@ export function exploreItems(): BrowseItem[] {
     const kinds = uniq(
       p.characters.filter((c) => (c.role ?? '').includes('シテ')).map((c) => shiteKind(c.typeRaw, c.stateRaw)),
     )
-    const themes = uniq(p.tags.filter((t) => t.category === 'Theme').map((t) => t.value))
+    const tagVals = (cat: string) => uniq(p.tags.filter((t) => t.category === cat).map((t) => t.value))
     const endings = uniq((p.storyPattern?.endingCanonical ?? []).map((c) => ENDING_LABEL[c] ?? c))
 
     return {
@@ -227,11 +276,18 @@ export function exploreItems(): BrowseItem[] {
       badge: p.publication.hasArticle ? '記事あり' : undefined,
       facets: {
         structure: uniq([p.nohStructure.label]),
+        season: playSeasons(p),
+        month: playMonths(p),
+        author: playAuthors(p),
         region: regions,
         kind: kinds,
         person: playPeople(p),
         source: sourceWorks(p.sources.map((s) => s.name)),
-        theme: themes,
+        theme: tagVals('Theme'),
+        emotion: tagVals('Emotion'),
+        situation: tagVals('Situation'),
+        motif: tagVals('Motif'),
+        experience: tagVals('Experience'),
         ending: endings,
         pref: prefs,
         school: uniq(p.schools.map((s) => s.school)),
