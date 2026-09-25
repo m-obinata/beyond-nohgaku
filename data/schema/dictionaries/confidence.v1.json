@@ -1,0 +1,18 @@
+{
+  "_doc": "confidence系の生値 → 共通4状態。列別に語彙が違うため一括辞書で写像する。未知トークンは needs_review 扱い（validateで警告）。空欄の既定は unknown（該当なしにしない）。",
+  "version": "1",
+  "states": ["known", "needs_review", "unknown", "not_applicable"],
+  "map": {
+    "確定": "known", "高": "known", "有力": "known", "伝・有力": "known",
+    "中〜高": "known", "中": "known", "中〜高（要確認）": "needs_review",
+    "客観情報": "known", "客観・構造整理": "known", "編集整理": "known", "編集判断": "known",
+    "要確認": "needs_review", "要地理検証": "needs_review", "要文献確認": "needs_review",
+    "有力・要文献確認": "needs_review", "中〜高・要確認": "needs_review",
+    "L4未到達": "needs_review", "正体要確認": "needs_review",
+    "不詳": "unknown", "不明": "unknown", "不定": "unknown",
+    "該当なし": "not_applicable", "無": "not_applicable"
+  },
+  "labels": {
+    "known": "確認済み", "needs_review": "確認中", "unknown": "未確認", "not_applicable": "該当なし"
+  }
+}

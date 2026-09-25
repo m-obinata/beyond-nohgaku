@@ -1,0 +1,12 @@
+{
+  "_doc": "TAG.confidence は確信度ではなく『客観か編集判断か』。basis へ改名して二値へ束ねる。similarity/connection のレイヤー判定に使う。",
+  "version": "1",
+  "map": {
+    "客観情報": "objective",
+    "客観・構造整理": "objective",
+    "編集判断": "editorial",
+    "編集整理": "editorial"
+  },
+  "labels": { "objective": "客観", "editorial": "編集判断" },
+  "default": "editorial"
+}

@@ -1,0 +1,2250 @@
+{
+  "_meta": {
+    "sourceVersion": "v0.12-249plays-L2",
+    "schemaVersion": "1",
+    "generatedAt": "2026-09-25T14:29:13.919Z"
+  },
+  "plays": [
+    {
+      "id": "N0001",
+      "slug": "izutsu",
+      "title": "井筒",
+      "titleKana": "いづつ",
+      "nohStructure": "夢幻能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0002",
+      "slug": "atsumori",
+      "title": "敦盛",
+      "titleKana": "あつもり",
+      "nohStructure": "夢幻能",
+      "prefecture": "兵庫県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0003",
+      "slug": "sumidagawa",
+      "title": "隅田川",
+      "titleKana": "すみだがわ",
+      "nohStructure": "現在能",
+      "prefecture": "東京都",
+      "hasArticle": false
+    },
+    {
+      "id": "N0004",
+      "slug": "shunkan",
+      "title": "俊寛",
+      "titleKana": "しゅんかん",
+      "nohStructure": "現在能",
+      "prefecture": "鹿児島県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0005",
+      "slug": "aoi-no-ue",
+      "title": "葵上",
+      "titleKana": "あおいのうえ",
+      "nohStructure": "現在能的",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0006",
+      "slug": "dojoji",
+      "title": "道成寺",
+      "titleKana": "どうじょうじ",
+      "nohStructure": "現在能的",
+      "prefecture": "和歌山県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0007",
+      "slug": "hagoromo",
+      "title": "羽衣",
+      "titleKana": "はごろも",
+      "nohStructure": "現在能的",
+      "prefecture": "静岡県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0008",
+      "slug": "hashi-benkei",
+      "title": "橋弁慶",
+      "titleKana": "はしべんけい",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": true
+    },
+    {
+      "id": "N0009",
+      "slug": "ataka",
+      "title": "安宅",
+      "titleKana": "あたか",
+      "nohStructure": "現在能",
+      "prefecture": "石川県",
+      "hasArticle": true
+    },
+    {
+      "id": "N0010",
+      "slug": "funabenkei",
+      "title": "船弁慶",
+      "titleKana": "ふなべんけい",
+      "nohStructure": "複合型",
+      "prefecture": "兵庫県",
+      "hasArticle": true
+    },
+    {
+      "id": "N0011",
+      "slug": "takasago",
+      "title": "高砂",
+      "titleKana": "たかさご",
+      "nohStructure": "夢幻能",
+      "prefecture": "兵庫県・大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0012",
+      "slug": "matsukaze",
+      "title": "松風",
+      "titleKana": "まつかぜ",
+      "nohStructure": "夢幻能",
+      "prefecture": "兵庫県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0013",
+      "slug": "nonomiya",
+      "title": "野宮",
+      "titleKana": "ののみや",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0014",
+      "slug": "teika",
+      "title": "定家",
+      "titleKana": "ていか",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0015",
+      "slug": "yuya",
+      "title": "熊野",
+      "titleKana": "ゆや",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0016",
+      "slug": "hyakuman",
+      "title": "百万",
+      "titleKana": "ひゃくまん",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0017",
+      "slug": "sakuragawa",
+      "title": "桜川",
+      "titleKana": "さくらがわ",
+      "nohStructure": "現在能",
+      "prefecture": "茨城県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0018",
+      "slug": "miidera",
+      "title": "三井寺",
+      "titleKana": "みいでら",
+      "nohStructure": "現在能",
+      "prefecture": "滋賀県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0019",
+      "slug": "hachinoki",
+      "title": "鉢木",
+      "titleKana": "はちのき",
+      "nohStructure": "現在能",
+      "prefecture": "群馬県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0020",
+      "slug": "kagekiyo",
+      "title": "景清",
+      "titleKana": "かげきよ",
+      "nohStructure": "現在能",
+      "prefecture": "宮崎県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0021",
+      "slug": "yorimasa",
+      "title": "頼政",
+      "titleKana": "よりまさ",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0022",
+      "slug": "sanemori",
+      "title": "実盛",
+      "titleKana": "さねもり",
+      "nohStructure": "夢幻能",
+      "prefecture": "石川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0023",
+      "slug": "kiyotsune",
+      "title": "清経",
+      "titleKana": "きよつね",
+      "nohStructure": "夢幻能",
+      "prefecture": "大分県・京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0024",
+      "slug": "kayoi-komachi",
+      "title": "通小町",
+      "titleKana": "かよいこまち",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0025",
+      "slug": "sotoba-komachi",
+      "title": "卒都婆小町",
+      "titleKana": "そとばこまち",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0026",
+      "slug": "yamamba",
+      "title": "山姥",
+      "titleKana": "やまんば",
+      "nohStructure": "夢幻能的",
+      "prefecture": "新潟県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0027",
+      "slug": "tsuchigumo",
+      "title": "土蜘蛛",
+      "titleKana": "つちぐも",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0028",
+      "slug": "nue",
+      "title": "鵺",
+      "titleKana": "ぬえ",
+      "nohStructure": "夢幻能",
+      "prefecture": "兵庫県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0029",
+      "slug": "kurama-tengu",
+      "title": "鞍馬天狗",
+      "titleKana": "くらまてんぐ",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": true
+    },
+    {
+      "id": "N0030",
+      "slug": "kantan",
+      "title": "邯鄲",
+      "titleKana": "かんたん",
+      "nohStructure": "現在能",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0031",
+      "slug": "okina",
+      "title": "翁",
+      "titleKana": "おきな",
+      "nohStructure": "儀式能",
+      "prefecture": "該当なし",
+      "hasArticle": false
+    },
+    {
+      "id": "N0032",
+      "slug": "kamo",
+      "title": "賀茂",
+      "titleKana": "かも",
+      "nohStructure": "夢幻能的",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0033",
+      "slug": "yoro",
+      "title": "養老",
+      "titleKana": "ようろう",
+      "nohStructure": "現在能的",
+      "prefecture": "岐阜県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0034",
+      "slug": "chikubushima",
+      "title": "竹生島",
+      "titleKana": "ちくぶしま",
+      "nohStructure": "夢幻能的",
+      "prefecture": "滋賀県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0035",
+      "slug": "arashiyama",
+      "title": "嵐山",
+      "titleKana": "あらしやま",
+      "nohStructure": "夢幻能的",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0036",
+      "slug": "tamura",
+      "title": "田村",
+      "titleKana": "たむら",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0037",
+      "slug": "yashima",
+      "title": "八島",
+      "titleKana": "やしま",
+      "nohStructure": "夢幻能",
+      "prefecture": "香川県",
+      "hasArticle": true
+    },
+    {
+      "id": "N0038",
+      "slug": "tomoe",
+      "title": "巴",
+      "titleKana": "ともえ",
+      "nohStructure": "夢幻能",
+      "prefecture": "滋賀県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0039",
+      "slug": "tadanori",
+      "title": "忠度",
+      "titleKana": "ただのり",
+      "nohStructure": "夢幻能",
+      "prefecture": "兵庫県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0040",
+      "slug": "kakitsubata",
+      "title": "杜若",
+      "titleKana": "かきつばた",
+      "nohStructure": "夢幻能",
+      "prefecture": "愛知県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0041",
+      "slug": "eguchi",
+      "title": "江口",
+      "titleKana": "えぐち",
+      "nohStructure": "夢幻能",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0042",
+      "slug": "toboku",
+      "title": "東北",
+      "titleKana": "とうぼく",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0043",
+      "slug": "hashitomi",
+      "title": "半蔀",
+      "titleKana": "はしとみ",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0044",
+      "slug": "hanjo",
+      "title": "班女",
+      "titleKana": "はんじょ",
+      "nohStructure": "現在能",
+      "prefecture": "岐阜県・京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0045",
+      "slug": "yoroboshi",
+      "title": "弱法師",
+      "titleKana": "よろぼし",
+      "nohStructure": "現在能",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0046",
+      "slug": "kinuta",
+      "title": "砧",
+      "titleKana": "きぬた",
+      "nohStructure": "現在能的",
+      "prefecture": "福岡県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0047",
+      "slug": "koi-no-omoni",
+      "title": "恋重荷",
+      "titleKana": "こいのおもに",
+      "nohStructure": "現在能的",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0048",
+      "slug": "kanawa",
+      "title": "鉄輪",
+      "titleKana": "かなわ",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0049",
+      "slug": "shakkyo",
+      "title": "石橋",
+      "titleKana": "しゃっきょう",
+      "nohStructure": "現在能的",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0050",
+      "slug": "momijigari",
+      "title": "紅葉狩",
+      "titleKana": "もみじがり",
+      "nohStructure": "現在能",
+      "prefecture": "長野県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0051",
+      "slug": "oimatsu",
+      "title": "老松",
+      "titleKana": "おいまつ",
+      "nohStructure": "現在能的",
+      "prefecture": "福岡県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0052",
+      "slug": "hakurakuten",
+      "title": "白楽天",
+      "titleKana": "はくらくてん",
+      "nohStructure": "現在能的",
+      "prefecture": "福岡県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0053",
+      "slug": "seiobo",
+      "title": "西王母",
+      "titleKana": "せいおうぼ",
+      "nohStructure": "現在能的",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0054",
+      "slug": "tsurukame",
+      "title": "鶴亀",
+      "titleKana": "つるかめ",
+      "nohStructure": "現在能的",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0055",
+      "slug": "ema",
+      "title": "絵馬",
+      "titleKana": "えま",
+      "nohStructure": "現在能的",
+      "prefecture": "三重県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0056",
+      "slug": "miwa",
+      "title": "三輪",
+      "titleKana": "みわ",
+      "nohStructure": "現在能的",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0057",
+      "slug": "iwafune",
+      "title": "岩船",
+      "titleKana": "いわふね",
+      "nohStructure": "現在能的",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0058",
+      "slug": "mekari",
+      "title": "和布刈",
+      "titleKana": "めかり",
+      "nohStructure": "現在能的",
+      "prefecture": "福岡県・山口県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0059",
+      "slug": "oyashiro",
+      "title": "大社",
+      "titleKana": "おおやしろ",
+      "nohStructure": "現在能的",
+      "prefecture": "島根県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0060",
+      "slug": "tamanoi",
+      "title": "玉井",
+      "titleKana": "たまのい",
+      "nohStructure": "現在能的",
+      "prefecture": "海中世界",
+      "hasArticle": false
+    },
+    {
+      "id": "N0061",
+      "slug": "ebira",
+      "title": "箙",
+      "titleKana": "えびら",
+      "nohStructure": "夢幻能",
+      "prefecture": "兵庫県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0062",
+      "slug": "kanehira",
+      "title": "兼平",
+      "titleKana": "かねひら",
+      "nohStructure": "夢幻能",
+      "prefecture": "滋賀県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0063",
+      "slug": "tomonaga",
+      "title": "朝長",
+      "titleKana": "ともなが",
+      "nohStructure": "夢幻能",
+      "prefecture": "岐阜県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0064",
+      "slug": "michimori",
+      "title": "通盛",
+      "titleKana": "みちもり",
+      "nohStructure": "夢幻能",
+      "prefecture": "徳島県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0065",
+      "slug": "tsunemasa",
+      "title": "経正",
+      "titleKana": "つねまさ",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0066",
+      "slug": "fujito",
+      "title": "藤戸",
+      "titleKana": "ふじと",
+      "nohStructure": "現在能的",
+      "prefecture": "岡山県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0067",
+      "slug": "ikari-kazuki",
+      "title": "碇潜",
+      "titleKana": "いかりかづき",
+      "nohStructure": "夢幻能",
+      "prefecture": "山口県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0068",
+      "slug": "ikuta-atsumori",
+      "title": "生田敦盛",
+      "titleKana": "いくたあつもり",
+      "nohStructure": "夢幻能",
+      "prefecture": "兵庫県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0069",
+      "slug": "shunzei-tadanori",
+      "title": "俊成忠度",
+      "titleKana": "しゅんぜいただのり",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0070",
+      "slug": "morihisa",
+      "title": "盛久",
+      "titleKana": "もりひさ",
+      "nohStructure": "現在能",
+      "prefecture": "神奈川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0071",
+      "slug": "saigyo-zakura",
+      "title": "西行桜",
+      "titleKana": "さいぎょうざくら",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0072",
+      "slug": "obasute",
+      "title": "姨捨",
+      "titleKana": "おばすて",
+      "nohStructure": "夢幻能",
+      "prefecture": "長野県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0073",
+      "slug": "higaki",
+      "title": "檜垣",
+      "titleKana": "ひがき",
+      "nohStructure": "夢幻能",
+      "prefecture": "熊本県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0074",
+      "slug": "basho",
+      "title": "芭蕉",
+      "titleKana": "ばしょう",
+      "nohStructure": "夢幻能",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0075",
+      "slug": "seiganji",
+      "title": "誓願寺",
+      "titleKana": "せいがんじ",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0076",
+      "slug": "tamakazura",
+      "title": "玉葛",
+      "titleKana": "たまかずら",
+      "nohStructure": "夢幻能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0077",
+      "slug": "yokihi",
+      "title": "楊貴妃",
+      "titleKana": "ようきひ",
+      "nohStructure": "夢幻能",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0078",
+      "slug": "unrin-in",
+      "title": "雲林院",
+      "titleKana": "うんりんいん",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0079",
+      "slug": "uneme",
+      "title": "采女",
+      "titleKana": "うねめ",
+      "nohStructure": "夢幻能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0080",
+      "slug": "futari-shizuka",
+      "title": "二人静",
+      "titleKana": "ふたりしずか",
+      "nohStructure": "夢幻能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0081",
+      "slug": "semimaru",
+      "title": "蝉丸",
+      "titleKana": "せみまる",
+      "nohStructure": "現在能",
+      "prefecture": "滋賀県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0082",
+      "slug": "jinen-koji",
+      "title": "自然居士",
+      "titleKana": "じねんこじ",
+      "nohStructure": "現在能",
+      "prefecture": "滋賀県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0083",
+      "slug": "kagetsu",
+      "title": "花月",
+      "titleKana": "かげつ",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0084",
+      "slug": "mochizuki",
+      "title": "望月",
+      "titleKana": "もちづき",
+      "nohStructure": "現在能",
+      "prefecture": "滋賀県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0085",
+      "slug": "hoka-so",
+      "title": "放下僧",
+      "titleKana": "ほうかそう",
+      "nohStructure": "現在能",
+      "prefecture": "神奈川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0086",
+      "slug": "yauchi-soga",
+      "title": "夜討曽我",
+      "titleKana": "ようちそが",
+      "nohStructure": "現在能",
+      "prefecture": "静岡県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0087",
+      "slug": "kogo",
+      "title": "小督",
+      "titleKana": "こごう",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0088",
+      "slug": "utaura",
+      "title": "歌占",
+      "titleKana": "うたうら",
+      "nohStructure": "現在能",
+      "prefecture": "石川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0089",
+      "slug": "settai",
+      "title": "摂待",
+      "titleKana": "せったい",
+      "nohStructure": "現在能",
+      "prefecture": "福島県",
+      "hasArticle": true
+    },
+    {
+      "id": "N0090",
+      "slug": "mitsuyama",
+      "title": "三山",
+      "titleKana": "みつやま",
+      "nohStructure": "現在能的",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0091",
+      "slug": "adachigahara",
+      "title": "安達原",
+      "titleKana": "あだちがはら",
+      "nohStructure": "現在能",
+      "prefecture": "福島県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0092",
+      "slug": "sesshoseki",
+      "title": "殺生石",
+      "titleKana": "せっしょうせき",
+      "nohStructure": "現在能的",
+      "prefecture": "栃木県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0093",
+      "slug": "ama",
+      "title": "海士",
+      "titleKana": "あま",
+      "nohStructure": "現在能的",
+      "prefecture": "香川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0094",
+      "slug": "ukai",
+      "title": "鵜飼",
+      "titleKana": "うかい",
+      "nohStructure": "現在能的",
+      "prefecture": "山梨県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0095",
+      "slug": "shojo",
+      "title": "猩々",
+      "titleKana": "しょうじょう",
+      "nohStructure": "現在能的",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0096",
+      "slug": "oeyama",
+      "title": "大江山",
+      "titleKana": "おおえやま",
+      "nohStructure": "現在能的",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0097",
+      "slug": "ikkaku-sennin",
+      "title": "一角仙人",
+      "titleKana": "いっかくせんにん",
+      "nohStructure": "現在能的",
+      "prefecture": "インド",
+      "hasArticle": false
+    },
+    {
+      "id": "N0098",
+      "slug": "daie",
+      "title": "大会",
+      "titleKana": "だいえ",
+      "nohStructure": "現在能的",
+      "prefecture": "滋賀県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0099",
+      "slug": "zegai",
+      "title": "善界",
+      "titleKana": "ぜかい",
+      "nohStructure": "現在能的",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0100",
+      "slug": "ryoko",
+      "title": "龍虎",
+      "titleKana": "りょうこ",
+      "nohStructure": "現在能的",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0101",
+      "slug": "naniwa",
+      "title": "難波",
+      "titleKana": "なにわ",
+      "nohStructure": "夢幻能",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0102",
+      "slug": "yumi-yawata",
+      "title": "弓八幡",
+      "titleKana": "ゆみやわた",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0103",
+      "slug": "hojogawa",
+      "title": "放生川",
+      "titleKana": "ほうじょうがわ",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0104",
+      "slug": "kinsatsu",
+      "title": "金札",
+      "titleKana": "きんさつ",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0105",
+      "slug": "ukon",
+      "title": "右近",
+      "titleKana": "うこん",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0106",
+      "slug": "sakahoko",
+      "title": "逆矛",
+      "titleKana": "さかほこ",
+      "nohStructure": "夢幻能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0107",
+      "slug": "kasuga-ryujin",
+      "title": "春日龍神",
+      "titleKana": "かすがりゅうじん",
+      "nohStructure": "夢幻能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0108",
+      "slug": "himuro",
+      "title": "氷室",
+      "titleKana": "ひむろ",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0109",
+      "slug": "fujisan",
+      "title": "富士山",
+      "titleKana": "ふじさん",
+      "nohStructure": "夢幻能",
+      "prefecture": "静岡県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0110",
+      "slug": "tobosaku",
+      "title": "東方朔",
+      "titleKana": "とうぼうさく",
+      "nohStructure": "現在能的",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0111",
+      "slug": "tomoakira",
+      "title": "知章",
+      "titleKana": "ともあきら",
+      "nohStructure": "夢幻能",
+      "prefecture": "兵庫県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0112",
+      "slug": "daibutsu-kuyo",
+      "title": "大仏供養",
+      "titleKana": "だいぶつくよう",
+      "nohStructure": "現在能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0113",
+      "slug": "shichiki-ochi",
+      "title": "七騎落",
+      "titleKana": "しちきおち",
+      "nohStructure": "現在能",
+      "prefecture": "神奈川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0114",
+      "slug": "eboshi-ori",
+      "title": "烏帽子折",
+      "titleKana": "えぼしおり",
+      "nohStructure": "現在能",
+      "prefecture": "滋賀県・岐阜県",
+      "hasArticle": true
+    },
+    {
+      "id": "N0115",
+      "slug": "shozon",
+      "title": "正尊",
+      "titleKana": "しょうぞん",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": true
+    },
+    {
+      "id": "N0116",
+      "slug": "kumasaka",
+      "title": "熊坂",
+      "titleKana": "くまさか",
+      "nohStructure": "夢幻能",
+      "prefecture": "岐阜県",
+      "hasArticle": true
+    },
+    {
+      "id": "N0117",
+      "slug": "tadanobu",
+      "title": "忠信",
+      "titleKana": "ただのぶ",
+      "nohStructure": "現在能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0118",
+      "slug": "zenji-soga",
+      "title": "禅師曾我",
+      "titleKana": "ぜんじそが",
+      "nohStructure": "現在能",
+      "prefecture": "神奈川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0119",
+      "slug": "chobuku-soga",
+      "title": "調伏曾我",
+      "titleKana": "ちょうぶくそが",
+      "nohStructure": "現在能的",
+      "prefecture": "神奈川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0120",
+      "slug": "kiso",
+      "title": "木曾",
+      "titleKana": "きそ",
+      "nohStructure": "現在能",
+      "prefecture": "富山県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0121",
+      "slug": "yugao",
+      "title": "夕顔",
+      "titleKana": "ゆうがお",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0122",
+      "slug": "ukifune",
+      "title": "浮舟",
+      "titleKana": "うきふね",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0123",
+      "slug": "matsumushi",
+      "title": "松虫",
+      "titleKana": "まつむし",
+      "nohStructure": "夢幻能",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0124",
+      "slug": "senju",
+      "title": "千手",
+      "titleKana": "せんじゅ",
+      "nohStructure": "現在能",
+      "prefecture": "神奈川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0125",
+      "slug": "toru",
+      "title": "融",
+      "titleKana": "とおる",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0126",
+      "slug": "motomezuka",
+      "title": "求塚",
+      "titleKana": "もとめづか",
+      "nohStructure": "夢幻能",
+      "prefecture": "兵庫県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0127",
+      "slug": "sekidera-komachi",
+      "title": "関寺小町",
+      "titleKana": "せきでらこまち",
+      "nohStructure": "現在能",
+      "prefecture": "滋賀県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0128",
+      "slug": "omu-komachi",
+      "title": "鸚鵡小町",
+      "titleKana": "おうむこまち",
+      "nohStructure": "現在能",
+      "prefecture": "滋賀県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0129",
+      "slug": "ugetsu",
+      "title": "雨月",
+      "titleKana": "うげつ",
+      "nohStructure": "夢幻能",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0130",
+      "slug": "kazuraki",
+      "title": "葛城",
+      "titleKana": "かづらき",
+      "nohStructure": "夢幻能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0131",
+      "slug": "ohara-goko",
+      "title": "大原御幸",
+      "titleKana": "おはらごこう",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0132",
+      "slug": "kashiwazaki",
+      "title": "柏崎",
+      "titleKana": "かしわざき",
+      "nohStructure": "現在能",
+      "prefecture": "長野県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0133",
+      "slug": "tokusa",
+      "title": "木賊",
+      "titleKana": "とくさ",
+      "nohStructure": "現在能",
+      "prefecture": "長野県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0134",
+      "slug": "minazuki-barai",
+      "title": "水無月祓",
+      "titleKana": "みなづきばらい",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0135",
+      "slug": "torioibune",
+      "title": "鳥追舟",
+      "titleKana": "とりおいぶね",
+      "nohStructure": "現在能",
+      "prefecture": "福岡県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0136",
+      "slug": "hibariyama",
+      "title": "雲雀山",
+      "titleKana": "ひばりやま",
+      "nohStructure": "現在能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0137",
+      "slug": "aizomegawa",
+      "title": "藍染川",
+      "titleKana": "あいぞめがわ",
+      "nohStructure": "現在能的",
+      "prefecture": "福岡県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0138",
+      "slug": "rodaiko",
+      "title": "籠太鼓",
+      "titleKana": "ろうだいこ",
+      "nohStructure": "現在能",
+      "prefecture": "長崎県・佐賀県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0139",
+      "slug": "uto",
+      "title": "善知鳥",
+      "titleKana": "うとう",
+      "nohStructure": "夢幻能",
+      "prefecture": "富山県・青森県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0140",
+      "slug": "fuji-daiko",
+      "title": "富士太鼓",
+      "titleKana": "ふじだいこ",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0141",
+      "slug": "kokaji",
+      "title": "小鍛冶",
+      "titleKana": "こかじ",
+      "nohStructure": "現在能的",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0142",
+      "slug": "nomori",
+      "title": "野守",
+      "titleKana": "のもり",
+      "nohStructure": "夢幻能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0143",
+      "slug": "raiden",
+      "title": "雷電",
+      "titleKana": "らいでん",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0144",
+      "slug": "rashomon",
+      "title": "羅生門",
+      "titleKana": "らしょうもん",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0145",
+      "slug": "kotei",
+      "title": "皇帝",
+      "titleKana": "こうてい",
+      "nohStructure": "現在能的",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0146",
+      "slug": "shari",
+      "title": "舎利",
+      "titleKana": "しゃり",
+      "nohStructure": "現在能的",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0147",
+      "slug": "shoki",
+      "title": "鍾馗",
+      "titleKana": "しょうき",
+      "nohStructure": "夢幻能",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0148",
+      "slug": "kuruma-zo",
+      "title": "車僧",
+      "titleKana": "くるまぞう",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0149",
+      "slug": "hiun",
+      "title": "飛雲",
+      "titleKana": "ひうん",
+      "nohStructure": "夢幻能",
+      "prefecture": "長野県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0150",
+      "slug": "kanyo-kyu",
+      "title": "咸陽宮",
+      "titleKana": "かんようきゅう",
+      "nohStructure": "現在能",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0151",
+      "slug": "play-n0151",
+      "title": "阿漕",
+      "titleKana": "あこぎ",
+      "nohStructure": "夢幻能",
+      "prefecture": "三重県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0152",
+      "slug": "play-n0152",
+      "title": "芦刈",
+      "titleKana": "あしかり",
+      "nohStructure": "現在能",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0153",
+      "slug": "play-n0153",
+      "title": "飛鳥川",
+      "titleKana": "あすかがわ",
+      "nohStructure": "現在能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0154",
+      "slug": "play-n0154",
+      "title": "綾鼓",
+      "titleKana": "あやのつづみ",
+      "nohStructure": "現在能的",
+      "prefecture": "福岡県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0155",
+      "slug": "play-n0155",
+      "title": "蟻通",
+      "titleKana": "ありどおし",
+      "nohStructure": "現在能的",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0156",
+      "slug": "play-n0156",
+      "title": "淡路",
+      "titleKana": "あわじ",
+      "nohStructure": "現在能的",
+      "prefecture": "兵庫県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0157",
+      "slug": "play-n0157",
+      "title": "内外詣",
+      "titleKana": "うちともうで",
+      "nohStructure": "現在能的",
+      "prefecture": "三重県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0158",
+      "slug": "play-n0158",
+      "title": "鵜祭",
+      "titleKana": "うのまつり",
+      "nohStructure": "現在能的",
+      "prefecture": "石川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0159",
+      "slug": "play-n0159",
+      "title": "梅",
+      "titleKana": "うめ",
+      "nohStructure": "夢幻能",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0160",
+      "slug": "play-n0160",
+      "title": "梅枝",
+      "titleKana": "うめがえ",
+      "nohStructure": "夢幻能",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0161",
+      "slug": "play-n0161",
+      "title": "鱗形",
+      "titleKana": "うろこがた",
+      "nohStructure": "現在能的",
+      "prefecture": "神奈川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0162",
+      "slug": "play-n0162",
+      "title": "江野島",
+      "titleKana": "えのしま",
+      "nohStructure": "現在能的",
+      "prefecture": "神奈川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0163",
+      "slug": "play-n0163",
+      "title": "小塩",
+      "titleKana": "おしお",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0164",
+      "slug": "play-n0164",
+      "title": "落葉",
+      "titleKana": "おちば",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0165",
+      "slug": "play-n0165",
+      "title": "女郎花",
+      "titleKana": "おみなめし",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0166",
+      "slug": "play-n0166",
+      "title": "大蛇",
+      "titleKana": "おろち",
+      "nohStructure": "現在能的",
+      "prefecture": "島根県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0167",
+      "slug": "play-n0167",
+      "title": "合浦",
+      "titleKana": "かっぽ",
+      "nohStructure": "現在能的",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0168",
+      "slug": "play-n0168",
+      "title": "加茂物狂",
+      "titleKana": "かもものぐるい",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0169",
+      "slug": "play-n0169",
+      "title": "菊慈童",
+      "titleKana": "きくじどう",
+      "nohStructure": "現在能的",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0170",
+      "slug": "play-n0170",
+      "title": "祇王",
+      "titleKana": "ぎおう",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0171",
+      "slug": "play-n0171",
+      "title": "草薙",
+      "titleKana": "くさなぎ",
+      "nohStructure": "夢幻能",
+      "prefecture": "愛知県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0172",
+      "slug": "play-n0172",
+      "title": "楠露",
+      "titleKana": "くすのつゆ",
+      "nohStructure": "現在能",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0173",
+      "slug": "play-n0173",
+      "title": "国栖",
+      "titleKana": "くず",
+      "nohStructure": "現在能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0174",
+      "slug": "play-n0174",
+      "title": "久世戸",
+      "titleKana": "くせのと",
+      "nohStructure": "現在能的",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0175",
+      "slug": "play-n0175",
+      "title": "呉服",
+      "titleKana": "くれは",
+      "nohStructure": "現在能的",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0176",
+      "slug": "play-n0176",
+      "title": "現在七面",
+      "titleKana": "げんざいしちめん",
+      "nohStructure": "現在能的",
+      "prefecture": "山梨県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0177",
+      "slug": "play-n0177",
+      "title": "現在忠度",
+      "titleKana": "げんざいただのり",
+      "nohStructure": "現在能的",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0178",
+      "slug": "play-n0178",
+      "title": "現在鵺",
+      "titleKana": "げんざいぬえ",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0179",
+      "slug": "play-n0179",
+      "title": "源氏供養",
+      "titleKana": "げんじくよう",
+      "nohStructure": "夢幻能",
+      "prefecture": "滋賀県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0180",
+      "slug": "play-n0180",
+      "title": "玄象",
+      "titleKana": "げんじょう",
+      "nohStructure": "夢幻能",
+      "prefecture": "兵庫県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0181",
+      "slug": "play-n0181",
+      "title": "源太夫",
+      "titleKana": "げんだゆう",
+      "nohStructure": "現在能的",
+      "prefecture": "愛知県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0182",
+      "slug": "play-n0182",
+      "title": "項羽",
+      "titleKana": "こうう",
+      "nohStructure": "夢幻能",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0183",
+      "slug": "play-n0183",
+      "title": "高野物狂",
+      "titleKana": "こうやものぐるい",
+      "nohStructure": "現在能",
+      "prefecture": "和歌山県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0184",
+      "slug": "play-n0184",
+      "title": "小袖曽我",
+      "titleKana": "こそでそが",
+      "nohStructure": "現在能",
+      "prefecture": "神奈川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0185",
+      "slug": "play-n0185",
+      "title": "胡蝶",
+      "titleKana": "こちょう",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0186",
+      "slug": "play-n0186",
+      "title": "佐保山",
+      "titleKana": "さおやま",
+      "nohStructure": "現在能的",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0187",
+      "slug": "play-n0187",
+      "title": "鷺",
+      "titleKana": "さぎ",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0188",
+      "slug": "play-n0188",
+      "title": "桜井駅",
+      "titleKana": "さくらいのえき",
+      "nohStructure": "現在能",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0189",
+      "slug": "play-n0189",
+      "title": "佐渡",
+      "titleKana": "さど",
+      "nohStructure": "現在能",
+      "prefecture": "新潟県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0190",
+      "slug": "play-n0190",
+      "title": "実方",
+      "titleKana": "さねかた",
+      "nohStructure": "夢幻能",
+      "prefecture": "宮城県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0191",
+      "slug": "play-n0191",
+      "title": "実朝",
+      "titleKana": "さねとも",
+      "nohStructure": "夢幻能",
+      "prefecture": "神奈川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0192",
+      "slug": "play-n0192",
+      "title": "三笑",
+      "titleKana": "さんしょう",
+      "nohStructure": "現在能",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0193",
+      "slug": "play-n0193",
+      "title": "志賀",
+      "titleKana": "しが",
+      "nohStructure": "夢幻能",
+      "prefecture": "滋賀県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0194",
+      "slug": "play-n0194",
+      "title": "春栄",
+      "titleKana": "しゅんえい",
+      "nohStructure": "現在能",
+      "prefecture": "静岡県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0195",
+      "slug": "play-n0195",
+      "title": "昭君",
+      "titleKana": "しょうくん",
+      "nohStructure": "夢幻能",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0196",
+      "slug": "play-n0196",
+      "title": "白鬚",
+      "titleKana": "しらひげ",
+      "nohStructure": "現在能的",
+      "prefecture": "滋賀県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0197",
+      "slug": "play-n0197",
+      "title": "代主",
+      "titleKana": "しろぬし",
+      "nohStructure": "現在能的",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0198",
+      "slug": "play-n0198",
+      "title": "須磨源氏",
+      "titleKana": "すまげんじ",
+      "nohStructure": "夢幻能",
+      "prefecture": "兵庫県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0199",
+      "slug": "play-n0199",
+      "title": "墨染桜",
+      "titleKana": "すみぞめさくら",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0200",
+      "slug": "play-n0200",
+      "title": "住吉詣",
+      "titleKana": "すみよしもうで",
+      "nohStructure": "現在能",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0201",
+      "slug": "play-n0201",
+      "title": "草紙洗小町",
+      "titleKana": "そうしあらいこまち",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0202",
+      "slug": "play-n0202",
+      "title": "泰山府君",
+      "titleKana": "たいざんふくん",
+      "nohStructure": "現在能的",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0203",
+      "slug": "play-n0203",
+      "title": "大典",
+      "titleKana": "たいてん",
+      "nohStructure": "現在能的",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0204",
+      "slug": "play-n0204",
+      "title": "大瓶猩々",
+      "titleKana": "たいへいしょうじょう",
+      "nohStructure": "現在能的",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0205",
+      "slug": "play-n0205",
+      "title": "當麻",
+      "titleKana": "たえま",
+      "nohStructure": "夢幻能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0206",
+      "slug": "play-n0206",
+      "title": "竹雪",
+      "titleKana": "たけのゆき",
+      "nohStructure": "現在能",
+      "prefecture": "要確認",
+      "hasArticle": false
+    },
+    {
+      "id": "N0207",
+      "slug": "play-n0207",
+      "title": "龍田",
+      "titleKana": "たつた",
+      "nohStructure": "夢幻能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0208",
+      "slug": "play-n0208",
+      "title": "谷行",
+      "titleKana": "たにこう",
+      "nohStructure": "現在能的",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0209",
+      "slug": "play-n0209",
+      "title": "第六天",
+      "titleKana": "だいろくてん",
+      "nohStructure": "夢幻能",
+      "prefecture": "三重県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0210",
+      "slug": "play-n0210",
+      "title": "檀風",
+      "titleKana": "だんぷう",
+      "nohStructure": "現在能",
+      "prefecture": "新潟県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0211",
+      "slug": "play-n0211",
+      "title": "張良",
+      "titleKana": "ちょうりょう",
+      "nohStructure": "現在能的",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0212",
+      "slug": "play-n0212",
+      "title": "土車",
+      "titleKana": "つちぐるま",
+      "nohStructure": "現在能",
+      "prefecture": "長野県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0213",
+      "slug": "play-n0213",
+      "title": "鶴",
+      "titleKana": "つる",
+      "nohStructure": "現在能的",
+      "prefecture": "和歌山県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0214",
+      "slug": "play-n0214",
+      "title": "天鼓",
+      "titleKana": "てんこ",
+      "nohStructure": "夢幻能",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0215",
+      "slug": "play-n0215",
+      "title": "藤栄",
+      "titleKana": "とうえい",
+      "nohStructure": "現在能",
+      "prefecture": "福岡県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0216",
+      "slug": "play-n0216",
+      "title": "東岸居士",
+      "titleKana": "とうがんこじ",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0217",
+      "slug": "play-n0217",
+      "title": "唐船",
+      "titleKana": "とうせん",
+      "nohStructure": "現在能",
+      "prefecture": "福岡県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0218",
+      "slug": "play-n0218",
+      "title": "道明寺",
+      "titleKana": "どうみょうじ",
+      "nohStructure": "夢幻能",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0219",
+      "slug": "play-n0219",
+      "title": "仲光",
+      "titleKana": "なかみつ",
+      "nohStructure": "現在能",
+      "prefecture": "兵庫県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0220",
+      "slug": "play-n0220",
+      "title": "長柄",
+      "titleKana": "ながら",
+      "nohStructure": "夢幻能",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0221",
+      "slug": "play-n0221",
+      "title": "錦木",
+      "titleKana": "にしきぎ",
+      "nohStructure": "夢幻能",
+      "prefecture": "秋田県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0222",
+      "slug": "nishikido",
+      "title": "錦戸",
+      "titleKana": "にしきど",
+      "nohStructure": "現在能",
+      "prefecture": "岩手県",
+      "hasArticle": true
+    },
+    {
+      "id": "N0223",
+      "slug": "play-n0223",
+      "title": "寝覚",
+      "titleKana": "ねざめ",
+      "nohStructure": "夢幻能",
+      "prefecture": "長野県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0224",
+      "slug": "play-n0224",
+      "title": "初雪",
+      "titleKana": "はつゆき",
+      "nohStructure": "夢幻能",
+      "prefecture": "要確認",
+      "hasArticle": false
+    },
+    {
+      "id": "N0225",
+      "slug": "play-n0225",
+      "title": "花筐",
+      "titleKana": "はながたみ",
+      "nohStructure": "現在能",
+      "prefecture": "福井県・京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0226",
+      "slug": "play-n0226",
+      "title": "秀衡",
+      "titleKana": "ひでひら",
+      "nohStructure": "現在能",
+      "prefecture": "京都府・岩手県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0227",
+      "slug": "play-n0227",
+      "title": "藤",
+      "titleKana": "ふじ",
+      "nohStructure": "夢幻能",
+      "prefecture": "富山県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0228",
+      "slug": "play-n0228",
+      "title": "二人祇王",
+      "titleKana": "ふたりぎおう",
+      "nohStructure": "現在能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0229",
+      "slug": "play-n0229",
+      "title": "船橋",
+      "titleKana": "ふなばし",
+      "nohStructure": "夢幻能",
+      "prefecture": "群馬県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0230",
+      "slug": "play-n0230",
+      "title": "彭祖",
+      "titleKana": "ほうそ",
+      "nohStructure": "現在能的",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0231",
+      "slug": "play-n0231",
+      "title": "仏原",
+      "titleKana": "ほとけがはら",
+      "nohStructure": "夢幻能",
+      "prefecture": "石川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0232",
+      "slug": "play-n0232",
+      "title": "巻絹",
+      "titleKana": "まきぎぬ",
+      "nohStructure": "現在能的",
+      "prefecture": "和歌山県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0233",
+      "slug": "play-n0233",
+      "title": "枕慈童",
+      "titleKana": "まくらじどう",
+      "nohStructure": "現在能的",
+      "prefecture": "中国",
+      "hasArticle": false
+    },
+    {
+      "id": "N0234",
+      "slug": "play-n0234",
+      "title": "松尾",
+      "titleKana": "まつのお",
+      "nohStructure": "夢幻能",
+      "prefecture": "京都府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0235",
+      "slug": "play-n0235",
+      "title": "松山鏡",
+      "titleKana": "まつやまかがみ",
+      "nohStructure": "現在能的",
+      "prefecture": "新潟県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0236",
+      "slug": "play-n0236",
+      "title": "松山天狗",
+      "titleKana": "まつやまてんぐ",
+      "nohStructure": "夢幻能",
+      "prefecture": "香川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0237",
+      "slug": "play-n0237",
+      "title": "満仲",
+      "titleKana": "まんじゅう",
+      "nohStructure": "現在能",
+      "prefecture": "兵庫県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0238",
+      "slug": "play-n0238",
+      "title": "水無瀬",
+      "titleKana": "みなせ",
+      "nohStructure": "現在能的",
+      "prefecture": "大阪府",
+      "hasArticle": false
+    },
+    {
+      "id": "N0239",
+      "slug": "play-n0239",
+      "title": "身延",
+      "titleKana": "みのぶ",
+      "nohStructure": "夢幻能",
+      "prefecture": "山梨県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0240",
+      "slug": "play-n0240",
+      "title": "御裳濯",
+      "titleKana": "みもすそ",
+      "nohStructure": "夢幻能",
+      "prefecture": "三重県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0241",
+      "slug": "play-n0241",
+      "title": "六浦",
+      "titleKana": "むつら",
+      "nohStructure": "夢幻能",
+      "prefecture": "神奈川県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0242",
+      "slug": "play-n0242",
+      "title": "室君",
+      "titleKana": "むろぎみ",
+      "nohStructure": "現在能的",
+      "prefecture": "兵庫県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0243",
+      "slug": "play-n0243",
+      "title": "雪",
+      "titleKana": "ゆき",
+      "nohStructure": "現在能的",
+      "prefecture": "要確認",
+      "hasArticle": false
+    },
+    {
+      "id": "N0244",
+      "slug": "play-n0244",
+      "title": "遊行柳",
+      "titleKana": "ゆぎょうやなぎ",
+      "nohStructure": "夢幻能",
+      "prefecture": "福島県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0245",
+      "slug": "play-n0245",
+      "title": "夢殿",
+      "titleKana": "ゆめどの",
+      "nohStructure": "夢幻能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0246",
+      "slug": "yoshino-shizuka",
+      "title": "吉野静",
+      "titleKana": "よしのしずか",
+      "nohStructure": "現在能",
+      "prefecture": "奈良県",
+      "hasArticle": true
+    },
+    {
+      "id": "N0247",
+      "slug": "play-n0247",
+      "title": "吉野天人",
+      "titleKana": "よしのてんにん",
+      "nohStructure": "夢幻能",
+      "prefecture": "奈良県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0248",
+      "slug": "play-n0248",
+      "title": "来殿",
+      "titleKana": "らいでん",
+      "nohStructure": "夢幻能",
+      "prefecture": "滋賀県",
+      "hasArticle": false
+    },
+    {
+      "id": "N0249",
+      "slug": "play-n0249",
+      "title": "輪蔵",
+      "titleKana": "りんぞう",
+      "nohStructure": "現在能的",
+      "prefecture": "京都府",
+      "hasArticle": false
+    }
+  ]
+}

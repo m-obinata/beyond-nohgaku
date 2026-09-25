@@ -1,0 +1,15 @@
+{
+  "_doc": "RELATIONSHIP.relationship_type（303種）。raw 保持。矢印 A→B は normalize 側で from/to へ分解。辞書化分のみ canonical。",
+  "version": "1",
+  "map": {
+    "親子": "parent-child", "母子": "parent-child", "父子": "parent-child", "父―子": "parent-child", "母―子": "parent-child",
+    "夫婦": "spouse", "妻―夫": "spouse", "恋人": "lovers", "恋人同士": "lovers",
+    "主従": "lord-retainer", "主君―家臣": "lord-retainer", "家臣―主君": "lord-retainer", "旧主従": "lord-retainer",
+    "兄弟": "siblings", "姉弟": "siblings",
+    "亡霊―供養者": "ghost-mourner", "僧―亡霊": "ghost-mourner", "亡霊―訪問者": "ghost-visitor", "亡霊―聞き手": "ghost-listener",
+    "神―勅使": "deity-envoy", "神―僧": "deity-priest", "神―参詣者": "deity-worshipper", "神―神職": "deity-priest", "龍神―勅使": "deity-envoy",
+    "師弟": "master-disciple", "友人": "friends", "刺客―標的": "assassin-target",
+    "救済者―被救済者": "savior-saved", "加害者―被害者": "aggressor-victim", "敗者―勝者": "loser-victor",
+    "退治者―異類": "slayer-monster", "遺児―父の仇": "orphan-enemy", "導き手―少年": "guide-youth"
+  }
+}

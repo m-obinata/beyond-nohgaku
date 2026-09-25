@@ -1,0 +1,9 @@
+{
+  "_doc": "season_general → 正規季節（複数可）。複合値は normalize 側で 〜・／ で分割してから各片を写像。無季/不定は空配列＋state。",
+  "version": "1",
+  "map": {
+    "春": "spring", "夏": "summer", "秋": "autumn", "冬": "winter",
+    "新春": "new-year", "初夏": "summer", "早春": "spring", "晩秋": "autumn",
+    "初秋": "autumn", "無季": null, "不定": null, "新春中心": "new-year"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_doc": "CHARACTER.character_type（406種）。raw は必ず保持し、辞書化した高頻度＋義経系のみ canonical を付す。未収載は canonical=null（内部 needs_review）。",
+  "version": "1",
+  "map": {
+    "僧": "priest", "僧兵": "priest", "神職": "priest", "山伏": "priest",
+    "武将": "warrior", "武士": "warrior", "少年武者": "warrior", "平家武将": "warrior", "武者": "warrior",
+    "武将の亡霊": "warrior-ghost", "女の亡霊": "woman-ghost",
+    "神": "deity", "女神": "deity", "神の化身": "deity", "龍神": "deity", "鬼神": "deity",
+    "天女": "celestial", "天人": "celestial", "仙女": "celestial",
+    "鬼": "demon", "天狗": "tengu", "霊獣": "beast",
+    "母": "parent", "父": "parent", "子": "child", "少年": "child",
+    "妻": "spouse", "白拍子": "dancer", "歌人": "poet",
+    "貴族": "noble", "貴婦人": "noble", "皇帝": "sovereign", "天皇": "sovereign",
+    "勅使": "envoy", "臣下": "retainer", "家臣": "retainer", "従者": "retainer", "官人": "official",
+    "旅人": "traveler", "漁師": "fisher", "侍女": "attendant", "女物狂": "madwoman"
+  }
+}

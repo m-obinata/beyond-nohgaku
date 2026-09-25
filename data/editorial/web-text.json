@@ -1,0 +1,5 @@
+{
+  "_doc": "公開用の自前文章（DBの内部メモとは別管理）。sourcePolicy=original かつ publicationStatus=ready のものだけ Public に載る。",
+  "version": "1",
+  "blocks": []
+}

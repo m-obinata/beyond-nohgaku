@@ -1,0 +1,12 @@
+{
+  "_doc": "PLAY.noh_structure（全6値）→ 正規コードと表示。少数なので全整備。",
+  "version": "1",
+  "map": {
+    "夢幻能":   { "code": "mugen",        "label": "夢幻能" },
+    "現在能":   { "code": "genzai",       "label": "現在能" },
+    "現在能的": { "code": "genzai-like",  "label": "現在能的" },
+    "夢幻能的": { "code": "mugen-like",   "label": "夢幻能的" },
+    "複合型":   { "code": "composite",    "label": "複合型" },
+    "儀式能":   { "code": "ritual",       "label": "儀式能" }
+  }
+}

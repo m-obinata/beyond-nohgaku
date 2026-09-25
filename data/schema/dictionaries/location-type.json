@@ -1,0 +1,14 @@
+{
+  "_doc": "LOCATION.location_type（54種、複合多）。raw 保持。複合は ・ で分割し各片を写像。辞書化分のみ canonical。",
+  "version": "1",
+  "map": {
+    "山": "mountain", "霊地": "sacred-site", "水辺": "waterside", "海辺": "coast", "海浜": "coast", "海上": "sea", "海中世界": "sea",
+    "都市": "city", "宮廷": "court", "里": "village", "山里": "village",
+    "寺社": "temple-shrine", "寺院": "temple", "神社": "shrine", "異界": "otherworld",
+    "古戦場": "battlefield", "橋": "bridge", "関所": "barrier", "港": "port", "島": "island", "流刑地": "exile",
+    "川": "river", "渡し": "ferry", "湖": "lake", "滝": "waterfall", "霊泉": "spring",
+    "井戸": "well", "塚": "mound", "墓所": "grave", "屋敷": "residence", "邸宅": "residence", "庵": "hermitage", "居所": "dwelling",
+    "旧跡": "historic-site", "寺跡": "historic-site", "花見": "blossom-viewing", "桜名所": "blossom-viewing",
+    "鐘": "bell", "病床": "sickbed", "民家": "house", "路傍": "roadside", "芸能空間": "performance-space", "儀式空間": "ritual-space"
+  }
+}

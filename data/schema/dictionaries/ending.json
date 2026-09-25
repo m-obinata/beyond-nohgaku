@@ -1,0 +1,13 @@
+{
+  "_doc": "STORY_PATTERN.ending_tag（100種）。raw 保持。複合（A・B）は分割して各片を写像。辞書化分のみ canonical。",
+  "version": "1",
+  "map": {
+    "祝言": "celebration", "救済": "salvation", "成仏": "salvation", "和解": "reconciliation",
+    "消滅": "vanishing", "幻消失": "vanishing", "救済希求": "seek-salvation", "鎮魂希求": "seek-repose",
+    "供養希求": "seek-memorial", "帰還": "return", "帰郷": "return", "別離": "separation", "永別": "separation",
+    "退治": "subjugation", "調伏": "subjugation", "退散": "dispersal", "怨霊退散": "dispersal",
+    "未救済": "unsaved", "孤絶": "isolation", "未決着": "unresolved", "仇討成就": "revenge",
+    "再会": "reunion", "父子再会": "reunion", "昇天": "ascension", "覚醒": "awakening", "悟り": "awakening",
+    "臣従": "submission", "主従成立": "submission", "喪失確認": "loss", "執着継続": "attachment"
+  }
+}

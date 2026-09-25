@@ -1,0 +1,5 @@
+{
+  "_doc": "公開文章の権利確認台帳。playId+kind ごとに sourcePolicy と rightsRisk を人手で記録。ここに ready+original として登録された文章だけ公開する。",
+  "version": "1",
+  "entries": []
+}

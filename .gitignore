@@ -9,3 +9,7 @@ next-env.d.ts
 # 作業用
 dev.log
 out.txt
+
+# 演目DB — 原本と内部生成物（Master/Normalizedは公開しない）
+private-data/
+data/generated/normalized/

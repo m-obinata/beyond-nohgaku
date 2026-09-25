@@ -1,0 +1,13 @@
+{
+  "_doc": "SOURCE.source_type（43種）。raw 保持。複合は ・ で分割。上位の典拠種別へ束ねる。",
+  "version": "1",
+  "map": {
+    "公式曲目DB": "official-db", "上演解説": "commentary", "あらすじ": "commentary", "演目解説": "commentary",
+    "軍記物語": "war-tale", "軍記": "war-tale", "歴史説話": "tale", "説話": "tale", "伝承": "legend", "伝説": "legend",
+    "文学": "literature", "物語": "literature", "歌物語": "literature", "和歌": "poetry", "勅撰集": "poetry",
+    "信仰": "religious", "仏教説話": "religious", "縁起": "engi", "神話": "myth",
+    "芸能": "performing-arts", "祭祀": "ritual", "神事解説": "ritual", "民俗": "folklore",
+    "漢籍故事": "chinese-classic", "中国説話": "chinese-classic", "書誌調査": "bibliography",
+    "公開詞章": "libretto", "上演記録": "performance-record", "謡曲古跡解説": "commentary"
+  }
+}

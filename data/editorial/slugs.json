@@ -1,0 +1,1251 @@
+{
+  "_doc": "play_id → 公開URL slug。人手管理。生成処理で上書きしない。source: site=既存記事,auto=title_en由来,needs_review=要手当（title_en不備・非ラテン等）",
+  "version": "1",
+  "map": {
+    "N0001": {
+      "slug": "izutsu",
+      "title": "井筒",
+      "source": "site"
+    },
+    "N0002": {
+      "slug": "atsumori",
+      "title": "敦盛",
+      "source": "site"
+    },
+    "N0003": {
+      "slug": "sumidagawa",
+      "title": "隅田川",
+      "source": "auto"
+    },
+    "N0004": {
+      "slug": "shunkan",
+      "title": "俊寛",
+      "source": "site"
+    },
+    "N0005": {
+      "slug": "aoi-no-ue",
+      "title": "葵上",
+      "source": "auto"
+    },
+    "N0006": {
+      "slug": "dojoji",
+      "title": "道成寺",
+      "source": "auto"
+    },
+    "N0007": {
+      "slug": "hagoromo",
+      "title": "羽衣",
+      "source": "site"
+    },
+    "N0008": {
+      "slug": "hashi-benkei",
+      "title": "橋弁慶",
+      "source": "site"
+    },
+    "N0009": {
+      "slug": "ataka",
+      "title": "安宅",
+      "source": "site"
+    },
+    "N0010": {
+      "slug": "funabenkei",
+      "title": "船弁慶",
+      "source": "site"
+    },
+    "N0011": {
+      "slug": "takasago",
+      "title": "高砂",
+      "source": "auto"
+    },
+    "N0012": {
+      "slug": "matsukaze",
+      "title": "松風",
+      "source": "auto"
+    },
+    "N0013": {
+      "slug": "nonomiya",
+      "title": "野宮",
+      "source": "auto"
+    },
+    "N0014": {
+      "slug": "teika",
+      "title": "定家",
+      "source": "auto"
+    },
+    "N0015": {
+      "slug": "yuya",
+      "title": "熊野",
+      "source": "auto"
+    },
+    "N0016": {
+      "slug": "hyakuman",
+      "title": "百万",
+      "source": "auto"
+    },
+    "N0017": {
+      "slug": "sakuragawa",
+      "title": "桜川",
+      "source": "auto"
+    },
+    "N0018": {
+      "slug": "miidera",
+      "title": "三井寺",
+      "source": "auto"
+    },
+    "N0019": {
+      "slug": "hachinoki",
+      "title": "鉢木",
+      "source": "auto"
+    },
+    "N0020": {
+      "slug": "kagekiyo",
+      "title": "景清",
+      "source": "auto"
+    },
+    "N0021": {
+      "slug": "yorimasa",
+      "title": "頼政",
+      "source": "auto"
+    },
+    "N0022": {
+      "slug": "sanemori",
+      "title": "実盛",
+      "source": "auto"
+    },
+    "N0023": {
+      "slug": "kiyotsune",
+      "title": "清経",
+      "source": "auto"
+    },
+    "N0024": {
+      "slug": "kayoi-komachi",
+      "title": "通小町",
+      "source": "auto"
+    },
+    "N0025": {
+      "slug": "sotoba-komachi",
+      "title": "卒都婆小町",
+      "source": "auto"
+    },
+    "N0026": {
+      "slug": "yamamba",
+      "title": "山姥",
+      "source": "auto"
+    },
+    "N0027": {
+      "slug": "tsuchigumo",
+      "title": "土蜘蛛",
+      "source": "auto"
+    },
+    "N0028": {
+      "slug": "nue",
+      "title": "鵺",
+      "source": "auto"
+    },
+    "N0029": {
+      "slug": "kurama-tengu",
+      "title": "鞍馬天狗",
+      "source": "site"
+    },
+    "N0030": {
+      "slug": "kantan",
+      "title": "邯鄲",
+      "source": "auto"
+    },
+    "N0031": {
+      "slug": "okina",
+      "title": "翁",
+      "source": "auto"
+    },
+    "N0032": {
+      "slug": "kamo",
+      "title": "賀茂",
+      "source": "auto"
+    },
+    "N0033": {
+      "slug": "yoro",
+      "title": "養老",
+      "source": "auto"
+    },
+    "N0034": {
+      "slug": "chikubushima",
+      "title": "竹生島",
+      "source": "auto"
+    },
+    "N0035": {
+      "slug": "arashiyama",
+      "title": "嵐山",
+      "source": "auto"
+    },
+    "N0036": {
+      "slug": "tamura",
+      "title": "田村",
+      "source": "auto"
+    },
+    "N0037": {
+      "slug": "yashima",
+      "title": "八島",
+      "source": "site"
+    },
+    "N0038": {
+      "slug": "tomoe",
+      "title": "巴",
+      "source": "auto"
+    },
+    "N0039": {
+      "slug": "tadanori",
+      "title": "忠度",
+      "source": "auto"
+    },
+    "N0040": {
+      "slug": "kakitsubata",
+      "title": "杜若",
+      "source": "auto"
+    },
+    "N0041": {
+      "slug": "eguchi",
+      "title": "江口",
+      "source": "auto"
+    },
+    "N0042": {
+      "slug": "toboku",
+      "title": "東北",
+      "source": "auto"
+    },
+    "N0043": {
+      "slug": "hashitomi",
+      "title": "半蔀",
+      "source": "auto"
+    },
+    "N0044": {
+      "slug": "hanjo",
+      "title": "班女",
+      "source": "auto"
+    },
+    "N0045": {
+      "slug": "yoroboshi",
+      "title": "弱法師",
+      "source": "auto"
+    },
+    "N0046": {
+      "slug": "kinuta",
+      "title": "砧",
+      "source": "auto"
+    },
+    "N0047": {
+      "slug": "koi-no-omoni",
+      "title": "恋重荷",
+      "source": "auto"
+    },
+    "N0048": {
+      "slug": "kanawa",
+      "title": "鉄輪",
+      "source": "auto"
+    },
+    "N0049": {
+      "slug": "shakkyo",
+      "title": "石橋",
+      "source": "auto"
+    },
+    "N0050": {
+      "slug": "momijigari",
+      "title": "紅葉狩",
+      "source": "auto"
+    },
+    "N0051": {
+      "slug": "oimatsu",
+      "title": "老松",
+      "source": "auto"
+    },
+    "N0052": {
+      "slug": "hakurakuten",
+      "title": "白楽天",
+      "source": "auto"
+    },
+    "N0053": {
+      "slug": "seiobo",
+      "title": "西王母",
+      "source": "auto"
+    },
+    "N0054": {
+      "slug": "tsurukame",
+      "title": "鶴亀",
+      "source": "auto"
+    },
+    "N0055": {
+      "slug": "ema",
+      "title": "絵馬",
+      "source": "auto"
+    },
+    "N0056": {
+      "slug": "miwa",
+      "title": "三輪",
+      "source": "auto"
+    },
+    "N0057": {
+      "slug": "iwafune",
+      "title": "岩船",
+      "source": "auto"
+    },
+    "N0058": {
+      "slug": "mekari",
+      "title": "和布刈",
+      "source": "auto"
+    },
+    "N0059": {
+      "slug": "oyashiro",
+      "title": "大社",
+      "source": "auto"
+    },
+    "N0060": {
+      "slug": "tamanoi",
+      "title": "玉井",
+      "source": "auto"
+    },
+    "N0061": {
+      "slug": "ebira",
+      "title": "箙",
+      "source": "auto"
+    },
+    "N0062": {
+      "slug": "kanehira",
+      "title": "兼平",
+      "source": "auto"
+    },
+    "N0063": {
+      "slug": "tomonaga",
+      "title": "朝長",
+      "source": "auto"
+    },
+    "N0064": {
+      "slug": "michimori",
+      "title": "通盛",
+      "source": "auto"
+    },
+    "N0065": {
+      "slug": "tsunemasa",
+      "title": "経正",
+      "source": "auto"
+    },
+    "N0066": {
+      "slug": "fujito",
+      "title": "藤戸",
+      "source": "auto"
+    },
+    "N0067": {
+      "slug": "ikari-kazuki",
+      "title": "碇潜",
+      "source": "auto"
+    },
+    "N0068": {
+      "slug": "ikuta-atsumori",
+      "title": "生田敦盛",
+      "source": "auto"
+    },
+    "N0069": {
+      "slug": "shunzei-tadanori",
+      "title": "俊成忠度",
+      "source": "auto"
+    },
+    "N0070": {
+      "slug": "morihisa",
+      "title": "盛久",
+      "source": "auto"
+    },
+    "N0071": {
+      "slug": "saigyo-zakura",
+      "title": "西行桜",
+      "source": "auto"
+    },
+    "N0072": {
+      "slug": "obasute",
+      "title": "姨捨",
+      "source": "auto"
+    },
+    "N0073": {
+      "slug": "higaki",
+      "title": "檜垣",
+      "source": "auto"
+    },
+    "N0074": {
+      "slug": "basho",
+      "title": "芭蕉",
+      "source": "auto"
+    },
+    "N0075": {
+      "slug": "seiganji",
+      "title": "誓願寺",
+      "source": "auto"
+    },
+    "N0076": {
+      "slug": "tamakazura",
+      "title": "玉葛",
+      "source": "auto"
+    },
+    "N0077": {
+      "slug": "yokihi",
+      "title": "楊貴妃",
+      "source": "auto"
+    },
+    "N0078": {
+      "slug": "unrin-in",
+      "title": "雲林院",
+      "source": "auto"
+    },
+    "N0079": {
+      "slug": "uneme",
+      "title": "采女",
+      "source": "auto"
+    },
+    "N0080": {
+      "slug": "futari-shizuka",
+      "title": "二人静",
+      "source": "auto"
+    },
+    "N0081": {
+      "slug": "semimaru",
+      "title": "蝉丸",
+      "source": "auto"
+    },
+    "N0082": {
+      "slug": "jinen-koji",
+      "title": "自然居士",
+      "source": "auto"
+    },
+    "N0083": {
+      "slug": "kagetsu",
+      "title": "花月",
+      "source": "auto"
+    },
+    "N0084": {
+      "slug": "mochizuki",
+      "title": "望月",
+      "source": "auto"
+    },
+    "N0085": {
+      "slug": "hoka-so",
+      "title": "放下僧",
+      "source": "auto"
+    },
+    "N0086": {
+      "slug": "yauchi-soga",
+      "title": "夜討曽我",
+      "source": "auto"
+    },
+    "N0087": {
+      "slug": "kogo",
+      "title": "小督",
+      "source": "auto"
+    },
+    "N0088": {
+      "slug": "utaura",
+      "title": "歌占",
+      "source": "auto"
+    },
+    "N0089": {
+      "slug": "settai",
+      "title": "摂待",
+      "source": "site"
+    },
+    "N0090": {
+      "slug": "mitsuyama",
+      "title": "三山",
+      "source": "auto"
+    },
+    "N0091": {
+      "slug": "adachigahara",
+      "title": "安達原",
+      "source": "auto"
+    },
+    "N0092": {
+      "slug": "sesshoseki",
+      "title": "殺生石",
+      "source": "auto"
+    },
+    "N0093": {
+      "slug": "ama",
+      "title": "海士",
+      "source": "auto"
+    },
+    "N0094": {
+      "slug": "ukai",
+      "title": "鵜飼",
+      "source": "auto"
+    },
+    "N0095": {
+      "slug": "shojo",
+      "title": "猩々",
+      "source": "auto"
+    },
+    "N0096": {
+      "slug": "oeyama",
+      "title": "大江山",
+      "source": "auto"
+    },
+    "N0097": {
+      "slug": "ikkaku-sennin",
+      "title": "一角仙人",
+      "source": "auto"
+    },
+    "N0098": {
+      "slug": "daie",
+      "title": "大会",
+      "source": "auto"
+    },
+    "N0099": {
+      "slug": "zegai",
+      "title": "善界",
+      "source": "auto"
+    },
+    "N0100": {
+      "slug": "ryoko",
+      "title": "龍虎",
+      "source": "auto"
+    },
+    "N0101": {
+      "slug": "naniwa",
+      "title": "難波",
+      "source": "auto"
+    },
+    "N0102": {
+      "slug": "yumi-yawata",
+      "title": "弓八幡",
+      "source": "auto"
+    },
+    "N0103": {
+      "slug": "hojogawa",
+      "title": "放生川",
+      "source": "auto"
+    },
+    "N0104": {
+      "slug": "kinsatsu",
+      "title": "金札",
+      "source": "auto"
+    },
+    "N0105": {
+      "slug": "ukon",
+      "title": "右近",
+      "source": "auto"
+    },
+    "N0106": {
+      "slug": "sakahoko",
+      "title": "逆矛",
+      "source": "auto"
+    },
+    "N0107": {
+      "slug": "kasuga-ryujin",
+      "title": "春日龍神",
+      "source": "auto"
+    },
+    "N0108": {
+      "slug": "himuro",
+      "title": "氷室",
+      "source": "auto"
+    },
+    "N0109": {
+      "slug": "fujisan",
+      "title": "富士山",
+      "source": "auto"
+    },
+    "N0110": {
+      "slug": "tobosaku",
+      "title": "東方朔",
+      "source": "auto"
+    },
+    "N0111": {
+      "slug": "tomoakira",
+      "title": "知章",
+      "source": "auto"
+    },
+    "N0112": {
+      "slug": "daibutsu-kuyo",
+      "title": "大仏供養",
+      "source": "auto"
+    },
+    "N0113": {
+      "slug": "shichiki-ochi",
+      "title": "七騎落",
+      "source": "auto"
+    },
+    "N0114": {
+      "slug": "eboshi-ori",
+      "title": "烏帽子折",
+      "source": "site"
+    },
+    "N0115": {
+      "slug": "shozon",
+      "title": "正尊",
+      "source": "site"
+    },
+    "N0116": {
+      "slug": "kumasaka",
+      "title": "熊坂",
+      "source": "site"
+    },
+    "N0117": {
+      "slug": "tadanobu",
+      "title": "忠信",
+      "source": "auto"
+    },
+    "N0118": {
+      "slug": "zenji-soga",
+      "title": "禅師曾我",
+      "source": "auto"
+    },
+    "N0119": {
+      "slug": "chobuku-soga",
+      "title": "調伏曾我",
+      "source": "auto"
+    },
+    "N0120": {
+      "slug": "kiso",
+      "title": "木曾",
+      "source": "auto"
+    },
+    "N0121": {
+      "slug": "yugao",
+      "title": "夕顔",
+      "source": "auto"
+    },
+    "N0122": {
+      "slug": "ukifune",
+      "title": "浮舟",
+      "source": "auto"
+    },
+    "N0123": {
+      "slug": "matsumushi",
+      "title": "松虫",
+      "source": "auto"
+    },
+    "N0124": {
+      "slug": "senju",
+      "title": "千手",
+      "source": "auto"
+    },
+    "N0125": {
+      "slug": "toru",
+      "title": "融",
+      "source": "auto"
+    },
+    "N0126": {
+      "slug": "motomezuka",
+      "title": "求塚",
+      "source": "auto"
+    },
+    "N0127": {
+      "slug": "sekidera-komachi",
+      "title": "関寺小町",
+      "source": "auto"
+    },
+    "N0128": {
+      "slug": "omu-komachi",
+      "title": "鸚鵡小町",
+      "source": "auto"
+    },
+    "N0129": {
+      "slug": "ugetsu",
+      "title": "雨月",
+      "source": "auto"
+    },
+    "N0130": {
+      "slug": "kazuraki",
+      "title": "葛城",
+      "source": "auto"
+    },
+    "N0131": {
+      "slug": "ohara-goko",
+      "title": "大原御幸",
+      "source": "auto"
+    },
+    "N0132": {
+      "slug": "kashiwazaki",
+      "title": "柏崎",
+      "source": "auto"
+    },
+    "N0133": {
+      "slug": "tokusa",
+      "title": "木賊",
+      "source": "auto"
+    },
+    "N0134": {
+      "slug": "minazuki-barai",
+      "title": "水無月祓",
+      "source": "auto"
+    },
+    "N0135": {
+      "slug": "torioibune",
+      "title": "鳥追舟",
+      "source": "auto"
+    },
+    "N0136": {
+      "slug": "hibariyama",
+      "title": "雲雀山",
+      "source": "auto"
+    },
+    "N0137": {
+      "slug": "aizomegawa",
+      "title": "藍染川",
+      "source": "auto"
+    },
+    "N0138": {
+      "slug": "rodaiko",
+      "title": "籠太鼓",
+      "source": "auto"
+    },
+    "N0139": {
+      "slug": "uto",
+      "title": "善知鳥",
+      "source": "auto"
+    },
+    "N0140": {
+      "slug": "fuji-daiko",
+      "title": "富士太鼓",
+      "source": "auto"
+    },
+    "N0141": {
+      "slug": "kokaji",
+      "title": "小鍛冶",
+      "source": "auto"
+    },
+    "N0142": {
+      "slug": "nomori",
+      "title": "野守",
+      "source": "auto"
+    },
+    "N0143": {
+      "slug": "raiden",
+      "title": "雷電",
+      "source": "auto"
+    },
+    "N0144": {
+      "slug": "rashomon",
+      "title": "羅生門",
+      "source": "auto"
+    },
+    "N0145": {
+      "slug": "kotei",
+      "title": "皇帝",
+      "source": "auto"
+    },
+    "N0146": {
+      "slug": "shari",
+      "title": "舎利",
+      "source": "auto"
+    },
+    "N0147": {
+      "slug": "shoki",
+      "title": "鍾馗",
+      "source": "auto"
+    },
+    "N0148": {
+      "slug": "kuruma-zo",
+      "title": "車僧",
+      "source": "auto"
+    },
+    "N0149": {
+      "slug": "hiun",
+      "title": "飛雲",
+      "source": "auto"
+    },
+    "N0150": {
+      "slug": "kanyo-kyu",
+      "title": "咸陽宮",
+      "source": "auto"
+    },
+    "N0151": {
+      "slug": "play-n0151",
+      "title": "阿漕",
+      "source": "needs_review"
+    },
+    "N0152": {
+      "slug": "play-n0152",
+      "title": "芦刈",
+      "source": "needs_review"
+    },
+    "N0153": {
+      "slug": "play-n0153",
+      "title": "飛鳥川",
+      "source": "needs_review"
+    },
+    "N0154": {
+      "slug": "play-n0154",
+      "title": "綾鼓",
+      "source": "needs_review"
+    },
+    "N0155": {
+      "slug": "play-n0155",
+      "title": "蟻通",
+      "source": "needs_review"
+    },
+    "N0156": {
+      "slug": "play-n0156",
+      "title": "淡路",
+      "source": "needs_review"
+    },
+    "N0157": {
+      "slug": "play-n0157",
+      "title": "内外詣",
+      "source": "needs_review"
+    },
+    "N0158": {
+      "slug": "play-n0158",
+      "title": "鵜祭",
+      "source": "needs_review"
+    },
+    "N0159": {
+      "slug": "play-n0159",
+      "title": "梅",
+      "source": "needs_review"
+    },
+    "N0160": {
+      "slug": "play-n0160",
+      "title": "梅枝",
+      "source": "needs_review"
+    },
+    "N0161": {
+      "slug": "play-n0161",
+      "title": "鱗形",
+      "source": "needs_review"
+    },
+    "N0162": {
+      "slug": "play-n0162",
+      "title": "江野島",
+      "source": "needs_review"
+    },
+    "N0163": {
+      "slug": "play-n0163",
+      "title": "小塩",
+      "source": "needs_review"
+    },
+    "N0164": {
+      "slug": "play-n0164",
+      "title": "落葉",
+      "source": "needs_review"
+    },
+    "N0165": {
+      "slug": "play-n0165",
+      "title": "女郎花",
+      "source": "needs_review"
+    },
+    "N0166": {
+      "slug": "play-n0166",
+      "title": "大蛇",
+      "source": "needs_review"
+    },
+    "N0167": {
+      "slug": "play-n0167",
+      "title": "合浦",
+      "source": "needs_review"
+    },
+    "N0168": {
+      "slug": "play-n0168",
+      "title": "加茂物狂",
+      "source": "needs_review"
+    },
+    "N0169": {
+      "slug": "play-n0169",
+      "title": "菊慈童",
+      "source": "needs_review"
+    },
+    "N0170": {
+      "slug": "play-n0170",
+      "title": "祇王",
+      "source": "needs_review"
+    },
+    "N0171": {
+      "slug": "play-n0171",
+      "title": "草薙",
+      "source": "needs_review"
+    },
+    "N0172": {
+      "slug": "play-n0172",
+      "title": "楠露",
+      "source": "needs_review"
+    },
+    "N0173": {
+      "slug": "play-n0173",
+      "title": "国栖",
+      "source": "needs_review"
+    },
+    "N0174": {
+      "slug": "play-n0174",
+      "title": "久世戸",
+      "source": "needs_review"
+    },
+    "N0175": {
+      "slug": "play-n0175",
+      "title": "呉服",
+      "source": "needs_review"
+    },
+    "N0176": {
+      "slug": "play-n0176",
+      "title": "現在七面",
+      "source": "needs_review"
+    },
+    "N0177": {
+      "slug": "play-n0177",
+      "title": "現在忠度",
+      "source": "needs_review"
+    },
+    "N0178": {
+      "slug": "play-n0178",
+      "title": "現在鵺",
+      "source": "needs_review"
+    },
+    "N0179": {
+      "slug": "play-n0179",
+      "title": "源氏供養",
+      "source": "needs_review"
+    },
+    "N0180": {
+      "slug": "play-n0180",
+      "title": "玄象",
+      "source": "needs_review"
+    },
+    "N0181": {
+      "slug": "play-n0181",
+      "title": "源太夫",
+      "source": "needs_review"
+    },
+    "N0182": {
+      "slug": "play-n0182",
+      "title": "項羽",
+      "source": "needs_review"
+    },
+    "N0183": {
+      "slug": "play-n0183",
+      "title": "高野物狂",
+      "source": "needs_review"
+    },
+    "N0184": {
+      "slug": "play-n0184",
+      "title": "小袖曽我",
+      "source": "needs_review"
+    },
+    "N0185": {
+      "slug": "play-n0185",
+      "title": "胡蝶",
+      "source": "needs_review"
+    },
+    "N0186": {
+      "slug": "play-n0186",
+      "title": "佐保山",
+      "source": "needs_review"
+    },
+    "N0187": {
+      "slug": "play-n0187",
+      "title": "鷺",
+      "source": "needs_review"
+    },
+    "N0188": {
+      "slug": "play-n0188",
+      "title": "桜井駅",
+      "source": "needs_review"
+    },
+    "N0189": {
+      "slug": "play-n0189",
+      "title": "佐渡",
+      "source": "needs_review"
+    },
+    "N0190": {
+      "slug": "play-n0190",
+      "title": "実方",
+      "source": "needs_review"
+    },
+    "N0191": {
+      "slug": "play-n0191",
+      "title": "実朝",
+      "source": "needs_review"
+    },
+    "N0192": {
+      "slug": "play-n0192",
+      "title": "三笑",
+      "source": "needs_review"
+    },
+    "N0193": {
+      "slug": "play-n0193",
+      "title": "志賀",
+      "source": "needs_review"
+    },
+    "N0194": {
+      "slug": "play-n0194",
+      "title": "春栄",
+      "source": "needs_review"
+    },
+    "N0195": {
+      "slug": "play-n0195",
+      "title": "昭君",
+      "source": "needs_review"
+    },
+    "N0196": {
+      "slug": "play-n0196",
+      "title": "白鬚",
+      "source": "needs_review"
+    },
+    "N0197": {
+      "slug": "play-n0197",
+      "title": "代主",
+      "source": "needs_review"
+    },
+    "N0198": {
+      "slug": "play-n0198",
+      "title": "須磨源氏",
+      "source": "needs_review"
+    },
+    "N0199": {
+      "slug": "play-n0199",
+      "title": "墨染桜",
+      "source": "needs_review"
+    },
+    "N0200": {
+      "slug": "play-n0200",
+      "title": "住吉詣",
+      "source": "needs_review"
+    },
+    "N0201": {
+      "slug": "play-n0201",
+      "title": "草紙洗小町",
+      "source": "needs_review"
+    },
+    "N0202": {
+      "slug": "play-n0202",
+      "title": "泰山府君",
+      "source": "needs_review"
+    },
+    "N0203": {
+      "slug": "play-n0203",
+      "title": "大典",
+      "source": "needs_review"
+    },
+    "N0204": {
+      "slug": "play-n0204",
+      "title": "大瓶猩々",
+      "source": "needs_review"
+    },
+    "N0205": {
+      "slug": "play-n0205",
+      "title": "當麻",
+      "source": "needs_review"
+    },
+    "N0206": {
+      "slug": "play-n0206",
+      "title": "竹雪",
+      "source": "needs_review"
+    },
+    "N0207": {
+      "slug": "play-n0207",
+      "title": "龍田",
+      "source": "needs_review"
+    },
+    "N0208": {
+      "slug": "play-n0208",
+      "title": "谷行",
+      "source": "needs_review"
+    },
+    "N0209": {
+      "slug": "play-n0209",
+      "title": "第六天",
+      "source": "needs_review"
+    },
+    "N0210": {
+      "slug": "play-n0210",
+      "title": "檀風",
+      "source": "needs_review"
+    },
+    "N0211": {
+      "slug": "play-n0211",
+      "title": "張良",
+      "source": "needs_review"
+    },
+    "N0212": {
+      "slug": "play-n0212",
+      "title": "土車",
+      "source": "needs_review"
+    },
+    "N0213": {
+      "slug": "play-n0213",
+      "title": "鶴",
+      "source": "needs_review"
+    },
+    "N0214": {
+      "slug": "play-n0214",
+      "title": "天鼓",
+      "source": "needs_review"
+    },
+    "N0215": {
+      "slug": "play-n0215",
+      "title": "藤栄",
+      "source": "needs_review"
+    },
+    "N0216": {
+      "slug": "play-n0216",
+      "title": "東岸居士",
+      "source": "needs_review"
+    },
+    "N0217": {
+      "slug": "play-n0217",
+      "title": "唐船",
+      "source": "needs_review"
+    },
+    "N0218": {
+      "slug": "play-n0218",
+      "title": "道明寺",
+      "source": "needs_review"
+    },
+    "N0219": {
+      "slug": "play-n0219",
+      "title": "仲光",
+      "source": "needs_review"
+    },
+    "N0220": {
+      "slug": "play-n0220",
+      "title": "長柄",
+      "source": "needs_review"
+    },
+    "N0221": {
+      "slug": "play-n0221",
+      "title": "錦木",
+      "source": "needs_review"
+    },
+    "N0222": {
+      "slug": "nishikido",
+      "title": "錦戸",
+      "source": "site"
+    },
+    "N0223": {
+      "slug": "play-n0223",
+      "title": "寝覚",
+      "source": "needs_review"
+    },
+    "N0224": {
+      "slug": "play-n0224",
+      "title": "初雪",
+      "source": "needs_review"
+    },
+    "N0225": {
+      "slug": "play-n0225",
+      "title": "花筐",
+      "source": "needs_review"
+    },
+    "N0226": {
+      "slug": "play-n0226",
+      "title": "秀衡",
+      "source": "needs_review"
+    },
+    "N0227": {
+      "slug": "play-n0227",
+      "title": "藤",
+      "source": "needs_review"
+    },
+    "N0228": {
+      "slug": "play-n0228",
+      "title": "二人祇王",
+      "source": "needs_review"
+    },
+    "N0229": {
+      "slug": "play-n0229",
+      "title": "船橋",
+      "source": "needs_review"
+    },
+    "N0230": {
+      "slug": "play-n0230",
+      "title": "彭祖",
+      "source": "needs_review"
+    },
+    "N0231": {
+      "slug": "play-n0231",
+      "title": "仏原",
+      "source": "needs_review"
+    },
+    "N0232": {
+      "slug": "play-n0232",
+      "title": "巻絹",
+      "source": "needs_review"
+    },
+    "N0233": {
+      "slug": "play-n0233",
+      "title": "枕慈童",
+      "source": "needs_review"
+    },
+    "N0234": {
+      "slug": "play-n0234",
+      "title": "松尾",
+      "source": "needs_review"
+    },
+    "N0235": {
+      "slug": "play-n0235",
+      "title": "松山鏡",
+      "source": "needs_review"
+    },
+    "N0236": {
+      "slug": "play-n0236",
+      "title": "松山天狗",
+      "source": "needs_review"
+    },
+    "N0237": {
+      "slug": "play-n0237",
+      "title": "満仲",
+      "source": "needs_review"
+    },
+    "N0238": {
+      "slug": "play-n0238",
+      "title": "水無瀬",
+      "source": "needs_review"
+    },
+    "N0239": {
+      "slug": "play-n0239",
+      "title": "身延",
+      "source": "needs_review"
+    },
+    "N0240": {
+      "slug": "play-n0240",
+      "title": "御裳濯",
+      "source": "needs_review"
+    },
+    "N0241": {
+      "slug": "play-n0241",
+      "title": "六浦",
+      "source": "needs_review"
+    },
+    "N0242": {
+      "slug": "play-n0242",
+      "title": "室君",
+      "source": "needs_review"
+    },
+    "N0243": {
+      "slug": "play-n0243",
+      "title": "雪",
+      "source": "needs_review"
+    },
+    "N0244": {
+      "slug": "play-n0244",
+      "title": "遊行柳",
+      "source": "needs_review"
+    },
+    "N0245": {
+      "slug": "play-n0245",
+      "title": "夢殿",
+      "source": "needs_review"
+    },
+    "N0246": {
+      "slug": "yoshino-shizuka",
+      "title": "吉野静",
+      "source": "site"
+    },
+    "N0247": {
+      "slug": "play-n0247",
+      "title": "吉野天人",
+      "source": "needs_review"
+    },
+    "N0248": {
+      "slug": "play-n0248",
+      "title": "来殿",
+      "source": "needs_review"
+    },
+    "N0249": {
+      "slug": "play-n0249",
+      "title": "輪蔵",
+      "source": "needs_review"
+    }
+  }
+}

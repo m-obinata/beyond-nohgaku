@@ -1,0 +1,1251 @@
+{
+  "_doc": "演目ごとの公開状態。人手管理。summaryStatus=withheld が既定（summary_shortは公式解説由来のため）。ready にするのは自前original化＋権利確認済みのみ。",
+  "version": "1",
+  "map": {
+    "N0001": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0002": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0003": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0004": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0005": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0006": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0007": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0008": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": true
+    },
+    "N0009": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": true
+    },
+    "N0010": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": true
+    },
+    "N0011": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0012": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0013": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0014": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0015": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0016": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0017": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0018": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0019": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0020": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0021": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0022": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0023": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0024": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0025": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0026": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0027": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0028": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0029": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": true
+    },
+    "N0030": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0031": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0032": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0033": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0034": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0035": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0036": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0037": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": true
+    },
+    "N0038": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0039": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0040": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0041": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0042": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0043": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0044": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0045": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0046": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0047": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0048": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0049": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0050": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0051": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0052": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0053": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0054": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0055": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0056": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0057": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0058": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0059": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0060": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0061": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0062": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0063": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0064": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0065": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0066": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0067": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0068": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0069": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0070": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0071": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0072": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0073": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0074": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0075": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0076": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0077": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0078": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0079": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0080": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0081": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0082": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0083": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0084": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0085": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0086": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0087": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0088": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0089": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": true
+    },
+    "N0090": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0091": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0092": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0093": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0094": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0095": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0096": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0097": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0098": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0099": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0100": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0101": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0102": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0103": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0104": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0105": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0106": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0107": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0108": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0109": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0110": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0111": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0112": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0113": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0114": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": true
+    },
+    "N0115": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": true
+    },
+    "N0116": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": true
+    },
+    "N0117": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0118": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0119": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0120": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0121": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0122": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0123": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0124": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0125": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0126": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0127": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0128": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0129": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0130": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0131": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0132": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0133": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0134": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0135": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0136": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0137": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0138": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0139": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0140": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0141": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0142": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0143": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0144": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0145": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0146": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0147": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0148": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0149": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0150": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0151": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0152": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0153": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0154": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0155": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0156": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0157": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "noh-sup.hinoki-shoten.co.jp",
+      "hasArticle": false
+    },
+    "N0158": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.tvk.ne.jp",
+      "hasArticle": false
+    },
+    "N0159": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0160": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0161": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0162": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0163": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0164": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "noh-sup.hinoki-shoten.co.jp",
+      "hasArticle": false
+    },
+    "N0165": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0166": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0167": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0168": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0169": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0170": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0171": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0172": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0173": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0174": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0175": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0176": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0177": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "muhenko.com",
+      "hasArticle": false
+    },
+    "N0178": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "muhenko.com",
+      "hasArticle": false
+    },
+    "N0179": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0180": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0181": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0182": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0183": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0184": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0185": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0186": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0187": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0188": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "crd.ndl.go.jp",
+      "hasArticle": false
+    },
+    "N0189": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0190": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0191": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "crd.ndl.go.jp",
+      "hasArticle": false
+    },
+    "N0192": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0193": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0194": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0195": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0196": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0197": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0198": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0199": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "muhenko.com",
+      "hasArticle": false
+    },
+    "N0200": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0201": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0202": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "muhenko.com",
+      "hasArticle": false
+    },
+    "N0203": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0204": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0205": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0206": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0207": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0208": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0209": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0210": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0211": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0212": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0213": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "ayaexcalibur.blogspot.com",
+      "hasArticle": false
+    },
+    "N0214": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0215": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0216": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0217": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0218": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0219": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0220": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0221": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0222": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": true
+    },
+    "N0223": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0224": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0225": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0226": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "awajiningyoza.com",
+      "hasArticle": false
+    },
+    "N0227": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0228": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0229": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0230": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.gushiwen.cn",
+      "hasArticle": false
+    },
+    "N0231": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "noh-sup.hinoki-shoten.co.jp",
+      "hasArticle": false
+    },
+    "N0232": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0233": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0234": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0235": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0236": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "noh-doumeikai.com",
+      "hasArticle": false
+    },
+    "N0237": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0238": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0239": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0240": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0241": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0242": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0243": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "rohmtheatrekyoto.jp",
+      "hasArticle": false
+    },
+    "N0244": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0245": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0246": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": true
+    },
+    "N0247": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0248": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    },
+    "N0249": {
+      "summaryStatus": "withheld",
+      "summarySourceDomain": "www.nohgaku.or.jp",
+      "hasArticle": false
+    }
+  }
+}
