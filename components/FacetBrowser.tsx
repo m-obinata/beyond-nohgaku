@@ -347,8 +347,8 @@ export function FacetBrowser({ facets, items, placeholder, emptyNote }: Props) {
                   )}
                   <p className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1">
                     {item.meta && <span className="label">{item.meta}</span>}
-                    {Object.entries(item.facets)
-                      .flatMap(([, v]) => v)
+                    {/* 軸をまたいで同じ値（主題「救済」と結末「救済」など）があるので、重複は除いて出す */}
+                    {[...new Set(Object.entries(item.facets).flatMap(([, v]) => v))]
                       .slice(0, 6)
                       .map((v) => (
                         <span key={v} className="label text-muted">

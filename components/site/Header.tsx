@@ -25,8 +25,12 @@ const GROUPS: { verb: string; en: string; items: { href: string; label: string }
       { href: '/ja/places', label: '土地' },
       { href: '/ja/themes', label: '主題' },
       { href: '/ja/sources', label: '出典' },
-      { href: '/ja/search', label: '横断検索' },
     ],
+  },
+  {
+    verb: '分析する',
+    en: 'ANALYZE',
+    items: [{ href: '/ja/analyze', label: 'かけ合わせ' }],
   },
   {
     verb: '観る',
