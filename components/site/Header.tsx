@@ -1,13 +1,38 @@
 import Link from 'next/link'
 
-const NAV = [
-  { href: '/ja/stories', label: '物語', romaji: 'STORIES' },
-  { href: '/ja/places', label: '土地', romaji: 'PLACES' },
-  { href: '/ja/plays', label: '演目', romaji: 'PLAYS' },
-  { href: '/ja/explore', label: 'さがす', romaji: 'EXPLORE' },
-  { href: '/ja/features', label: '特集', romaji: 'FEATURES' },
-  { href: '/ja/performances', label: '公演', romaji: 'PERFORMANCES' },
-  { href: '/ja/search', label: '検索', romaji: 'SEARCH' },
+/**
+ * グローバルナビは「読む・さがす・観る」の三つの動詞で束ねる。
+ * 名詞（演目・人物…）と動詞（さがす・検索）が混在していた状態を解く。
+ * - 読む: 編集された記事
+ * - さがす: 作品・要素の索引と横断検索（演目＝全249の探索）
+ * - 観る: 上演情報
+ */
+const GROUPS: { verb: string; en: string; items: { href: string; label: string }[] }[] = [
+  {
+    verb: '読む',
+    en: 'READ',
+    items: [
+      { href: '/ja/features', label: '特集' },
+      { href: '/ja/stories', label: '物語' },
+    ],
+  },
+  {
+    verb: 'さがす',
+    en: 'FIND',
+    items: [
+      { href: '/ja/explore', label: '演目' },
+      { href: '/ja/people', label: '人物' },
+      { href: '/ja/places', label: '土地' },
+      { href: '/ja/themes', label: '主題' },
+      { href: '/ja/sources', label: '出典' },
+      { href: '/ja/search', label: '横断検索' },
+    ],
+  },
+  {
+    verb: '観る',
+    en: 'WATCH',
+    items: [{ href: '/ja/performances', label: '公演' }],
+  },
 ]
 
 export function Header() {
@@ -22,18 +47,26 @@ export function Header() {
             <span className="label mt-0.5 block group-hover:text-accent">BEYOND NOHGAKU</span>
           </Link>
 
-          <nav aria-label="グローバルナビゲーション" className="hidden md:block">
-            <ul className="flex items-baseline gap-7">
-              {NAV.map((n) => (
-                <li key={n.href}>
-                  <Link href={n.href} className="group block text-center">
-                    <span className="block font-serif text-[0.9375rem] group-hover:text-accent">
-                      {n.label}
-                    </span>
-                    <span className="label mt-0.5 block text-[0.5625rem] tracking-[0.12em]">
-                      {n.romaji}
-                    </span>
-                  </Link>
+          {/* デスクトップ: 動詞で束ねた三群を区切り線で並べる */}
+          <nav aria-label="グローバルナビゲーション" className="hidden lg:block">
+            <ul className="flex items-stretch gap-5">
+              {GROUPS.map((g) => (
+                <li
+                  key={g.en}
+                  className="border-rule flex flex-col gap-1 border-l pl-5 first:border-l-0 first:pl-0"
+                >
+                  <span className="label text-[0.5625rem] tracking-[0.14em]">{g.en}</span>
+                  <span className="flex items-baseline gap-4">
+                    {g.items.map((n) => (
+                      <Link
+                        key={n.href}
+                        href={n.href}
+                        className="hover:text-accent font-serif text-[0.9375rem] whitespace-nowrap"
+                      >
+                        {n.label}
+                      </Link>
+                    ))}
+                  </span>
                 </li>
               ))}
             </ul>
@@ -53,18 +86,20 @@ export function Header() {
         </div>
       </div>
 
-      {/* Mobile: ナビを畳まず、横スクロールの帯として常時見せる */}
+      {/* モバイル/タブレット: 群ごとに見出しを付けて横スクロール */}
       <nav
         aria-label="グローバルナビゲーション"
-        className="border-rule block border-t md:hidden"
+        className="border-rule block border-t lg:hidden"
       >
-        <ul className="flex gap-6 overflow-x-auto px-5 py-2.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-          {NAV.map((n) => (
-            <li key={n.href} className="shrink-0">
-              <Link href={n.href} className="flex items-baseline gap-2">
-                <span className="font-serif text-[0.9375rem]">{n.label}</span>
-                <span className="label text-[0.5625rem]">{n.romaji}</span>
-              </Link>
+        <ul className="flex gap-5 overflow-x-auto px-5 py-2.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          {GROUPS.map((g) => (
+            <li key={g.en} className="border-rule flex shrink-0 items-center gap-3 border-l pl-5 first:border-l-0 first:pl-0">
+              <span className="label text-[0.5625rem] tracking-[0.14em]">{g.en}</span>
+              {g.items.map((n) => (
+                <Link key={n.href} href={n.href} className="font-serif text-[0.9375rem] whitespace-nowrap">
+                  {n.label}
+                </Link>
+              ))}
             </li>
           ))}
         </ul>
