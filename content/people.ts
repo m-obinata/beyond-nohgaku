@@ -1,0 +1,148 @@
+import type { Person } from '@/lib/types'
+
+export const PEOPLE: Person[] = [
+  {
+    slug: 'minamoto-yoshitsune',
+    name: '源義経',
+    reading: 'みなもとのよしつね',
+    lifespan: '1159 頃 — 1189',
+    kind: '武将',
+    era: '源平の争乱',
+    role: '武将。源頼朝の弟',
+    summary:
+      '源義朝の子です。平家追討の主要な戦いを指揮し、その二年後には追われる側へ回りました。同時代の記録で追えるのは、ほぼ 1180 年から 1189 年までの十年に限られます。',
+    plays: ['kurama-tengu', 'hashi-benkei', 'eboshi-ori', 'yashima', 'funabenkei', 'ataka', 'settai'],
+    places: ['kurama', 'gojo', 'kisegawa', 'yashima', 'dannoura', 'daimotsu', 'yoshino', 'ataka', 'hiraizumi'],
+    sources: ['azuma-kagami', 'gyokuyo', 'heike-monogatari', 'gikeiki'],
+  },
+  {
+    slug: 'benkei',
+    name: '武蔵坊弁慶',
+    reading: 'むさしぼうべんけい',
+    lifespan: '生没年不詳',
+    kind: '僧',
+    era: '源平の争乱',
+    role: '義経に従ったとされる僧形の武者',
+    summary:
+      '同時代の史料には、ほとんど姿を見せません。鎌倉幕府がまとめた記録に従者として数度名前が挙がるだけで、人物像の大半は後世の物語が作りました。',
+    plays: ['hashi-benkei', 'funabenkei', 'ataka', 'settai', 'shozon'],
+    places: ['gojo', 'daimotsu', 'ataka', 'shinobu'],
+    sources: ['azuma-kagami', 'gikeiki'],
+  },
+  {
+    slug: 'togashi',
+    name: '富樫',
+    reading: 'とがし',
+    lifespan: '—',
+    kind: '役人',
+    era: '源平の争乱',
+    role: '安宅の関の関守（能の役名）',
+    summary:
+      '能「安宅」に登場する関守です。加賀の富樫氏は実在の一族ですが、安宅で義経一行を通したという出来事自体は、能の側の設定です。',
+    plays: ['ataka'],
+    places: ['ataka'],
+    sources: [],
+  },
+  {
+    slug: 'shizuka-gozen',
+    name: '静御前',
+    reading: 'しずかごぜん',
+    lifespan: '生没年不詳',
+    kind: '芸能者',
+    era: '源平の争乱',
+    role: '白拍子。歌い舞う女性の芸能者で、義経に従った',
+    summary:
+      '鎌倉に送られ、鶴岡八幡宮で舞ったことが幕府の記録に残っています。吉野での別れのほうは、物語の側で大きく育ちました。',
+    plays: ['funabenkei', 'yoshino-shizuka'],
+    places: ['yoshino', 'daimotsu'],
+    sources: ['azuma-kagami', 'gikeiki'],
+  },
+  {
+    slug: 'taira-tomomori',
+    name: '平知盛',
+    reading: 'たいらのとももり',
+    lifespan: '1152 — 1185',
+    kind: '武将',
+    era: '源平の争乱',
+    role: '平家の武将。壇ノ浦で滅びた一門の中心にいた',
+    summary:
+      '壇ノ浦で入水したと伝えられます。能「船弁慶」では、海上に現れる怨霊として義経の前に立ちます。',
+    plays: ['funabenkei'],
+    places: ['dannoura', 'daimotsu'],
+    sources: ['heike-monogatari', 'azuma-kagami'],
+  },
+  {
+    slug: 'minamoto-yoritomo',
+    name: '源頼朝',
+    reading: 'みなもとのよりとも',
+    lifespan: '1147 — 1199',
+    kind: '為政者',
+    era: '源平の争乱',
+    role: '鎌倉幕府初代将軍',
+    summary:
+      '義経の兄です。両者の対立は、個人の感情としてよりも、鎌倉と京の権力関係のなかで理解されます。',
+    plays: [],
+    places: ['kisegawa', 'kyoto'],
+    sources: ['azuma-kagami', 'gyokuyo'],
+  },
+  {
+    slug: 'sato-tadanobu',
+    name: '佐藤忠信',
+    reading: 'さとうただのぶ',
+    lifespan: '? — 1186',
+    kind: '武将',
+    era: '源平の争乱',
+    role: '義経の従者。奥州藤原氏の家人',
+    summary:
+      '奥州藤原氏の家人で、兄の継信とともに義経に従いました。信夫の佐藤氏をめぐる物語は、能「摂待」に受け継がれています。',
+    plays: ['settai'],
+    places: ['shinobu', 'yoshino'],
+    sources: ['azuma-kagami', 'gikeiki'],
+  },
+  {
+    slug: 'fujiwara-hidehira',
+    name: '藤原秀衡',
+    reading: 'ふじわらのひでひら',
+    lifespan: '? — 1187',
+    kind: '為政者',
+    era: '源平の争乱',
+    role: '奥州藤原氏三代',
+    summary:
+      '平泉を拠点に陸奥・出羽を治めました。義経を二度受け入れ、その死の二年後に奥州藤原氏は滅びます。',
+    plays: ['nishikido'],
+    places: ['hiraizumi'],
+    sources: ['azuma-kagami', 'gyokuyo'],
+  },
+  {
+    slug: 'ariwara-narihira',
+    name: '在原業平',
+    reading: 'ありわらのなりひら',
+    lifespan: '825 — 880',
+    kind: '歌人',
+    era: '平安',
+    role: '歌人。『伊勢物語』の主人公と重ねて読まれてきた',
+    summary:
+      '『伊勢物語』の主人公と重ねて読まれてきた歌人です。能では「井筒」をはじめ、複数の曲の背後に立っています。',
+    plays: ['izutsu'],
+    places: [],
+    sources: ['ise-monogatari'],
+  },
+  {
+    slug: 'taira-atsumori',
+    name: '平敦盛',
+    reading: 'たいらのあつもり',
+    lifespan: '1169 — 1184',
+    kind: '武将',
+    era: '源平の争乱',
+    role: '平家の若武者。一ノ谷で討たれた',
+    summary:
+      '一ノ谷で討たれました。討った側の熊谷直実とともに、後世もっとも繰り返し語られた戦場の一場面です。',
+    plays: ['atsumori'],
+    places: ['ichinotani'],
+    sources: ['heike-monogatari'],
+  },
+]
+
+export const personBySlug = (slug: string) => PEOPLE.find((p) => p.slug === slug)
+export const peopleBySlugs = (slugs: string[]) =>
+  slugs.map(personBySlug).filter((p): p is Person => Boolean(p))
