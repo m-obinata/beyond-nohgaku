@@ -177,6 +177,32 @@ function playPeople(p: ReturnType<typeof getAllPlays>[number]): string[] {
   return uniq(p.characters.map((c) => (c.name ? personName(c.name) : null)).filter((n) => n && NOTABLE_PEOPLE.has(n)))
 }
 
+/** 役を短く。舞台に出ない人物は「言及」と明示する（玄人向けの但し書き） */
+export function roleShort(role: string | null): string {
+  const r = role ?? ''
+  if (/不在|回想|非登場|象徴|憑依/.test(r)) return '言及'
+  if (/子方/.test(r)) return '子方'
+  if (/シテ/.test(r)) return 'シテ'
+  if (/ワキ/.test(r)) return 'ワキ'
+  if (/ツレ/.test(r)) return 'ツレ'
+  if (/アイ/.test(r)) return 'アイ'
+  return r || '—'
+}
+
+/** 「この曲での主な人物とその役」。頼光=ワキ、葵上=言及、のように玄人の突っ込みを先回りする */
+function castLine(p: ReturnType<typeof getAllPlays>[number]): string | undefined {
+  const seen = new Set<string>()
+  const parts: string[] = []
+  for (const c of p.characters) {
+    if (!c.name) continue
+    const name = personName(c.name)
+    if (!NOTABLE_PEOPLE.has(name) || seen.has(name)) continue
+    seen.add(name)
+    parts.push(`${name}〈${roleShort(c.role)}〉`)
+  }
+  return parts.length ? '主な人物　' + parts.join('・') : undefined
+}
+
 export function exploreItems(): BrowseItem[] {
   return getAllPlays().map((p) => {
     const prefs = splitPrefs(p.locations.map((l) => (l.prefectureState === 'known' ? l.prefecture : null)))
@@ -194,6 +220,7 @@ export function exploreItems(): BrowseItem[] {
       romaji: p.titleEn ?? undefined,
       reading: p.titleKana ?? undefined,
       hook: buildHook(p),
+      subline: castLine(p),
       badge: p.publication.hasArticle ? '記事あり' : undefined,
       facets: {
         structure: uniq([p.nohStructure.label]),

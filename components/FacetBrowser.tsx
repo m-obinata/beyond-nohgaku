@@ -37,6 +37,8 @@ export interface BrowseItem {
   hook: string
   meta?: string
   badge?: string
+  /** 補足の一行。演目一覧では「主な人物とその役」を出す（シテ/ワキ/言及など） */
+  subline?: string
   facets: Record<string, string[]>
   /** 自由語検索の対象 */
   text: string
@@ -302,6 +304,9 @@ export function FacetBrowser({ facets, items, placeholder, emptyNote }: Props) {
                   <p className="mt-1.5 max-w-[46rem] font-serif text-small text-ink/85">
                     {item.hook}
                   </p>
+                  {item.subline && (
+                    <p className="text-muted mt-1 font-sans text-micro">{item.subline}</p>
+                  )}
                   <p className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1">
                     {item.meta && <span className="label">{item.meta}</span>}
                     {Object.entries(item.facets)
