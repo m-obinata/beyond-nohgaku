@@ -17,7 +17,12 @@ const REGION_ORDER = [
   '東北', '関東', '中部', '近畿', '中国地方', '四国', '九州', '北海道', '大陸・海外', '異界',
 ]
 
-const NATURE_ORDER = ['生者', '亡霊・霊', '神', '天人・仙', '鬼・異類', '天狗', '精']
+// 主役の種別（正体でまとめる。「武将の亡霊」は武将へ畳む＝亡霊は状態なので別扱いしない）
+const KIND_ORDER = [
+  '武将・武士', '貴人・王', '女性', '白拍子・遊女', '物狂', '母', '子ども',
+  '僧・山伏', '神職・巫女', '歌人・文人', '老人・翁', '民・生業',
+  '神', '龍神', '天人・天女', '鬼', '天狗', '妖怪・異類', '草木の精',
+]
 
 const ENDING_ORDER = [
   '祝言', '救済', '和解', '再会', '帰還', '別離', '喪失', '未救済', '孤絶',
@@ -27,7 +32,9 @@ const ENDING_ORDER = [
 export const EXPLORE_FACETS: FacetDef[] = [
   { key: 'structure', label: '形式', labelEn: 'FORM', order: STRUCTURE_ORDER },
   { key: 'region', label: '地域', labelEn: 'REGION', order: REGION_ORDER },
-  { key: 'nature', label: '主役の性質', labelEn: 'SHITE', order: NATURE_ORDER },
+  { key: 'kind', label: '主役の種別', labelEn: 'SHITE', order: KIND_ORDER, limit: 14 },
+  { key: 'person', label: '主な人物', labelEn: 'PERSON', limit: 12, sortByCount: true },
+  { key: 'source', label: '原典', labelEn: 'SOURCE', limit: 12, sortByCount: true },
   { key: 'theme', label: '主題', labelEn: 'THEME', limit: 12, sortByCount: true },
   { key: 'ending', label: '結末', labelEn: 'ENDING', order: ENDING_ORDER, limit: 12 },
   { key: 'pref', label: '都道府県', labelEn: 'PREFECTURE', limit: 12 },
@@ -57,22 +64,37 @@ function splitPrefs(prefs: (string | null)[]): string[] {
   return uniq(prefs.flatMap((p) => (p ? p.split('・') : [])))
 }
 
-/* ───────── 主役の性質（キーワード分類）
- * 型（typeRaw）を優先して判定する。状態の「神的・異類」だけで鬼側へ倒さない。
- * 神は鬼より先に見る（鬼神は鬼側でよい）。 */
-function shiteNature(typeRaw: string | null, stateRaw: string | null): string | null {
+/* ───────── 主役の種別（正体で約20区分に分類）
+ * typeRaw を優先。亡霊/化身などの状態語は無視して正体でまとめる。
+ * 順序が優先度。人でないもの（神・鬼・天狗・精）を先に判定し、次に人の種別。 */
+function shiteKind(typeRaw: string | null, stateRaw: string | null): string | null {
   const t = typeRaw ?? ''
   const st = stateRaw ?? ''
-  if (/亡霊|怨霊|幽霊|生霊|の霊|亡母|亡き|死者|霊$/.test(t) || /亡霊|怨霊|幽霊|生霊|死者|の霊/.test(st))
-    return '亡霊・霊'
+  // 人でないもの
   if (/天狗/.test(t)) return '天狗'
-  if (/天人|天女|仙人|仙女/.test(t)) return '天人・仙'
-  if (/龍神|龍|明神|権現|女神|男神|雷神|山神|神霊|神の化身|明王|菩薩|弁才天|^神/.test(t)) return '神'
-  if (/鬼|夜叉|妖怪|霊獣|大蛇|蛇|異類/.test(t)) return '鬼・異類'
-  if (/の精|植物霊|花の精|松の精|精霊/.test(t)) return '精'
+  if (/天人|天女|仙人|仙女/.test(t)) return '天人・天女'
+  if (/龍神|龍女|龍/.test(t)) return '龍神'
+  if (/明神|権現|女神|男神|雷神|山神|明王|菩薩|弁才天|神霊|神の化身|^神|・神|神$/.test(t)) return '神'
+  if (/鬼(?!界)|夜叉/.test(t)) return '鬼'
+  if (/妖怪|霊獣|大蛇|蛇|土蜘蛛|異類|化生/.test(t)) return '妖怪・異類'
+  if (/の精|植物霊|花の精|松の精|草木|精霊|木の/.test(t)) return '草木の精'
+  // 人（正体）
+  if (/物狂|狂女|狂人/.test(t)) return '物狂'
+  if (/白拍子|遊女|傀儡/.test(t)) return '白拍子・遊女'
+  if (/僧|山伏|法師|尼|聖|沙門/.test(t)) return '僧・山伏'
+  if (/神職|巫女|禰宜|宮司/.test(t)) return '神職・巫女'
+  if (/歌人|歌詠|文人|詩人/.test(t)) return '歌人・文人'
+  if (/武将|武士|武者|軍|兵(?!衛)|侍/.test(t)) return '武将・武士'
+  if (/皇帝|天皇|帝|王|貴族|大臣|公卿|上皇|院|内親王|后/.test(t)) return '貴人・王'
+  if (/老女|老人|翁|媼|老/.test(t)) return '老人・翁'
+  if (/母/.test(t)) return '母'
+  if (/子(?!細)|少年|童|若君|稚児|幼/.test(t)) return '子ども'
+  if (/女|娘|妻|姫|侍女|上臈|息女/.test(t)) return '女性'
+  if (/漁師|海人|海士|樵|農|商|職人|庭守|馬|駒|船頭|里人|従者|下人|工|守/.test(t)) return '民・生業'
+  // typeRaw で決まらないときは state を最後に見る
   if (/神/.test(st)) return '神'
-  if (/異類/.test(st)) return '鬼・異類'
-  if (t || st) return '生者'
+  if (/異類/.test(st)) return '妖怪・異類'
+  if (t || st) return '民・生業'
   return null
 }
 
@@ -90,12 +112,77 @@ const SEASON_LABEL: Record<string, string> = {
   spring: '春', summer: '夏', autumn: '秋', winter: '冬', 'new-year': '新春',
 }
 
+/* ───────── 原典（出典名 → 主要な作品・典拠にまとめる） ─────────
+ * 「能楽協会 曲目データベース」等は出典メタなので原典に数えない。 */
+const SOURCE_WORKS: [RegExp, string][] = [
+  [/源氏物語|源氏/, '源氏物語'],
+  [/平家物語|平家/, '平家物語'],
+  [/伊勢物語/, '伊勢物語'],
+  [/太平記/, '太平記'],
+  [/曽我/, '曽我物語'],
+  [/義経記|義経伝説|義経|牛若/, '義経記・義経伝説'],
+  [/古今|新古今|勅撰|和歌集|百人一首|和歌/, '和歌・勅撰集'],
+  [/日本書紀|古事記|風土記|記紀|神話/, '記紀・神話'],
+  [/邯鄲|荘子|項羽|白楽天|漢籍|漢/, '漢籍・中国故事'],
+  [/縁起/, '寺社縁起'],
+  [/説話|宇治拾遺|今昔|沙石集/, '説話'],
+  [/伝説|伝承/, '伝承・伝説'],
+]
+const SOURCE_EXCLUDE = /能楽協会|曲目データ|曲目DB|国立国会|レファレンス/
+function sourceWorks(names: (string | null)[]): string[] {
+  const out: string[] = []
+  for (const n of names) {
+    if (!n || SOURCE_EXCLUDE.test(n)) continue
+    for (const [re, label] of SOURCE_WORKS) {
+      if (re.test(n)) { out.push(label); break }
+    }
+  }
+  return [...new Set(out)]
+}
+
+/* ───────── 主な人物（複数の曲に登場する固有名） ─────────
+ * 全249曲を走査し、2曲以上に出る固有名を集める。総称（都の僧・帝の臣下等）は除く。
+ * 同一人物の別名は代表名へ寄せる。 */
+const PERSON_ALIAS: Record<string, string> = {
+  牛若丸: '源義経', 西行法師: '西行',
+}
+const personName = (n: string) => PERSON_ALIAS[n] ?? n
+const GENERIC_SUFFIX = /(僧|山伏|神職|衆徒|巫女|廷臣|臣下|尉|女|男|妻|母|童子|従者|里人|供|精|霊|神|人)$/
+const GENERIC_EXACT = new Set(['帝', '皇帝', '龍女', '天女', '天人', '鬼', '龍神', '老人', '老女', '勅使', '廷臣', '官人', '大臣', '公卿'])
+function isGenericName(n: string): boolean {
+  if (n.length <= 1) return true
+  if (n.includes('の')) return true // 「都の僧」「帝の臣下」「富士の妻」など役柄表現
+  if (GENERIC_EXACT.has(n)) return true
+  if (GENERIC_SUFFIX.test(n)) return true
+  return false
+}
+
+/** 2曲以上に登場する固有名の集合（モジュール初期化時に一度だけ計算） */
+const NOTABLE_PEOPLE: Set<string> = (() => {
+  const count = new Map<string, number>()
+  for (const p of getAllPlays()) {
+    const seen = new Set<string>()
+    for (const c of p.characters) {
+      if (!c.name) continue
+      const name = personName(c.name)
+      if (isGenericName(name) || seen.has(name)) continue
+      seen.add(name)
+      count.set(name, (count.get(name) ?? 0) + 1)
+    }
+  }
+  return new Set([...count.entries()].filter(([, v]) => v >= 2).map(([k]) => k))
+})()
+
+function playPeople(p: ReturnType<typeof getAllPlays>[number]): string[] {
+  return uniq(p.characters.map((c) => (c.name ? personName(c.name) : null)).filter((n) => n && NOTABLE_PEOPLE.has(n)))
+}
+
 export function exploreItems(): BrowseItem[] {
   return getAllPlays().map((p) => {
     const prefs = splitPrefs(p.locations.map((l) => (l.prefectureState === 'known' ? l.prefecture : null)))
     const regions = uniq(prefs.map((pf) => PREF_REGION[pf]))
-    const natures = uniq(
-      p.characters.filter((c) => (c.role ?? '').includes('シテ')).map((c) => shiteNature(c.typeRaw, c.stateRaw)),
+    const kinds = uniq(
+      p.characters.filter((c) => (c.role ?? '').includes('シテ')).map((c) => shiteKind(c.typeRaw, c.stateRaw)),
     )
     const themes = uniq(p.tags.filter((t) => t.category === 'Theme').map((t) => t.value))
     const endings = uniq((p.storyPattern?.endingCanonical ?? []).map((c) => ENDING_LABEL[c] ?? c))
@@ -111,7 +198,9 @@ export function exploreItems(): BrowseItem[] {
       facets: {
         structure: uniq([p.nohStructure.label]),
         region: regions,
-        nature: natures,
+        kind: kinds,
+        person: playPeople(p),
+        source: sourceWorks(p.sources.map((s) => s.name)),
         theme: themes,
         ending: endings,
         pref: prefs,
