@@ -42,8 +42,9 @@ export function PlayArticle({ slug, children }: { slug: string; children: React.
     <ArticleShell
       breadcrumb={[
         { href: '/ja', label: '能楽の向こう側' },
-        { href: '/ja/plays', label: '演目' },
+        { href: '/ja/explore', label: '演目' },
         { href: '/ja/plays/' + play.slug, label: play.name },
+        { href: '/ja/plays/' + play.slug + '/yomu', label: '記事' },
       ]}
       meta={{
         slug: play.slug,

@@ -84,9 +84,11 @@ export function FacetBrowser({ facets, items, placeholder, emptyNote }: Props) {
   useEffect(() => {
     const sp = new URLSearchParams(window.location.search)
     const next: Selected = {}
-    for (const f of facets) {
-      const raw = sp.get(f.key)
-      if (raw) next[f.key] = raw.split(',').filter(Boolean)
+    // 画面に出していない軸（分析からのドリルや共有URLの ?theme=… など）も絞り込みとして受ける
+    for (const [k, raw] of sp.entries()) {
+      if (k === 'q' || k === 'and' || !raw) continue
+      const vals = raw.split(',').filter(Boolean)
+      if (vals.length) next[k] = vals
     }
     const q = sp.get('q')
     if (q) setQuery(q)

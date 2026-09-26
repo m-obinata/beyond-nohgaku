@@ -32,6 +32,12 @@ const ENDING_ORDER = [
 const SEASON_ORDER = ['新春', '春', '夏', '秋', '冬', '無季']
 const MONTH_ORDER = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
 
+/**
+ * Explore は「演目そのものの性質」で絞る軸だけを出す。
+ * 土地・人物・主題・出典からの逆引きは、それぞれの索引ページ（/ja/places 等）に任せる。
+ * ただし各演目の facets にはこれらの値も持たせてあるので、分析（かけ合わせ）からの
+ * ドリルや共有URL（?theme=… 等）はそのまま絞り込みとして効く（FacetBrowser 側で対応）。
+ */
 export const EXPLORE_FACETS: FacetDef[] = [
   { key: 'structure', label: '形式', labelEn: 'FORM', order: STRUCTURE_ORDER },
   { key: 'season', label: '季節', labelEn: 'SEASON', order: SEASON_ORDER },
@@ -40,15 +46,7 @@ export const EXPLORE_FACETS: FacetDef[] = [
     note: '季節を選ぶと、その季節の月に絞れます（流儀の上演月）',
   },
   { key: 'author', label: '作者', labelEn: 'AUTHOR', limit: 12, sortByCount: true },
-  { key: 'region', label: '地域', labelEn: 'REGION', order: REGION_ORDER },
-  {
-    key: 'pref', label: '都道府県', labelEn: 'PREFECTURE', limit: 12, scoped: true, sortByCount: true,
-    note: '地域を選ぶと、その地域の県だけに絞れます',
-  },
   { key: 'kind', label: '主役の種別', labelEn: 'SHITE', order: KIND_ORDER, limit: 14 },
-  { key: 'person', label: '主な人物', labelEn: 'PERSON', limit: 12, sortByCount: true },
-  { key: 'source', label: '原典', labelEn: 'SOURCE', limit: 12, sortByCount: true },
-  { key: 'theme', label: '主題', labelEn: 'THEME', limit: 12, sortByCount: true },
   { key: 'emotion', label: '感情', labelEn: 'EMOTION', limit: 10, sortByCount: true },
   { key: 'situation', label: '状況', labelEn: 'SITUATION', limit: 10, sortByCount: true },
   { key: 'motif', label: 'モチーフ', labelEn: 'MOTIF', limit: 10, sortByCount: true },

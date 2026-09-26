@@ -185,7 +185,8 @@ export const FEATURE_YOSHITSUNE = {
 /** 章の行き先。記事が未執筆の章は土地のページへ送る。 */
 export const chapterHref = (c: FeatureChapter) => {
   const playSlug = c.plays.find((p) => p.slug)?.slug
-  return c.status === '公開' && playSlug ? '/ja/plays/' + playSlug : '/ja/places/' + c.placeSlug
+  // 公開章は記事本文（/yomu）へ直接送る。未公開は土地の頁へ。
+  return c.status === '公開' && playSlug ? '/ja/plays/' + playSlug + '/yomu' : '/ja/places/' + c.placeSlug
 }
 
 export const chapters = FEATURE_YOSHITSUNE.chapters as FeatureChapter[]

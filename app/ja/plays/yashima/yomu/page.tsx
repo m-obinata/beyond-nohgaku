@@ -1,16 +1,16 @@
 import type { Metadata } from 'next'
 import { PlayArticle } from '@/components/PlayArticle'
 import { PLAY_ARTICLES } from '@/content/articles'
-import Body from './body.mdx'
+import Body from '../body.mdx'
 
 export const metadata: Metadata = {
-  title: '船弁慶',
-  description: PLAY_ARTICLES['funabenkei'].lede,
+  title: '八島',
+  description: PLAY_ARTICLES['yashima'].lede,
 }
 
 export default function Page() {
   return (
-    <PlayArticle slug="funabenkei">
+    <PlayArticle slug="yashima">
       <Body />
     </PlayArticle>
   )
