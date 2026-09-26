@@ -30,6 +30,18 @@ export const ANALYZE_DIMS: { key: string; label: string }[] = [
   { key: 'school', label: '流儀' },
 ]
 
+/** 共起ネットワーク向けの軸。同一軸内で複数値を持ちうる（意味タグ・人物・原典など）ものだけ。 */
+export const NETWORK_DIMS: { key: string; label: string }[] = [
+  { key: 'theme', label: '主題' },
+  { key: 'emotion', label: '感情' },
+  { key: 'situation', label: '状況' },
+  { key: 'motif', label: 'モチーフ' },
+  { key: 'experience', label: '経験' },
+  { key: 'person', label: '人物' },
+  { key: 'source', label: '原典' },
+  { key: 'kind', label: '主役の種別' },
+]
+
 export function analyzePlays(): AnalyzePlay[] {
   return exploreItems().map((i) => ({
     id: i.id,

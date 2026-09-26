@@ -1,7 +1,10 @@
 import type { Metadata } from 'next'
 import { IndexShell } from '@/components/IndexShell'
+import { BlockHead } from '@/components/ui/SectionHead'
 import { CooccurrenceMatrix } from '@/components/analyze/CooccurrenceMatrix'
-import { analyzePlays, ANALYZE_DIMS } from '@/content/analyze'
+import { CooccurrenceScatter } from '@/components/analyze/CooccurrenceScatter'
+import { CooccurrenceNetwork } from '@/components/analyze/CooccurrenceNetwork'
+import { analyzePlays, ANALYZE_DIMS, NETWORK_DIMS } from '@/content/analyze'
 
 export const metadata: Metadata = {
   title: 'かけ合わせて見る',
@@ -26,7 +29,20 @@ export default function AnalyzePage() {
         </div>
       }
     >
-      <CooccurrenceMatrix plays={plays} dims={ANALYZE_DIMS} />
+      <section className="mb-16">
+        <BlockHead label="MATRIX" title="2軸の格子" note="どの組み合わせが多いか・偏るかを一望する" />
+        <CooccurrenceMatrix plays={plays} dims={ANALYZE_DIMS} />
+      </section>
+
+      <section className="mb-16">
+        <BlockHead label="SCATTER" title="件数 × 偏りの散布" note="右上ほど、多くて偏りも強い結びつき" />
+        <CooccurrenceScatter plays={plays} dims={ANALYZE_DIMS} />
+      </section>
+
+      <section>
+        <BlockHead label="NETWORK" title="共起のネットワーク" note="ひとつの値を中心に、共に現れる値だけを出す" />
+        <CooccurrenceNetwork plays={plays} dims={NETWORK_DIMS} />
+      </section>
     </IndexShell>
   )
 }
