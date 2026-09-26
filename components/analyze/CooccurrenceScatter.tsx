@@ -82,8 +82,8 @@ export function CooccurrenceScatter({ plays, dims }: { plays: AnalyzePlay[]; dim
         <svg viewBox={`0 0 ${W} ${H}`} className="block h-auto w-full max-w-[680px]" role="img"
           aria-label={`${dimLabel(yKey)}と${dimLabel(xKey)}の組み合わせの散布図`}>
           {/* 軸 */}
-          <line x1={padL} y1={padT} x2={padL} y2={padT + plotH} stroke="var(--rule)" />
-          <line x1={padL} y1={padT + plotH} x2={W - padR} y2={padT + plotH} stroke="var(--rule)" />
+          <line x1={padL} y1={padT} x2={padL} y2={padT + plotH} stroke="var(--color-rule)" />
+          <line x1={padL} y1={padT + plotH} x2={W - padR} y2={padT + plotH} stroke="var(--color-rule)" />
           {/* lift=1 基準線 */}
           <line x1={padL} y1={y1} x2={W - padR} y2={y1} stroke="rgba(48,74,69,0.3)" strokeDasharray="3 3" />
           <text x={W - padR} y={y1 - 4} textAnchor="end" className="fill-muted" fontSize={9}>
@@ -101,7 +101,7 @@ export function CooccurrenceScatter({ plays, dims }: { plays: AnalyzePlay[]; dim
               <g key={key} onClick={() => go(p.x, p.y)} className="cursor-pointer">
                 <circle
                   cx={sx(p.n)} cy={sy(p.lift)} r={strong ? 5 : 3.5}
-                  fill={strong ? 'var(--accent)' : 'rgba(48,74,69,0.35)'}
+                  fill={strong ? 'var(--color-accent)' : 'rgba(48,74,69,0.35)'}
                 >
                   <title>{`${p.y} × ${p.x}：${p.n}曲・偏り×${p.lift.toFixed(1)}`}</title>
                 </circle>
