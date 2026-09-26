@@ -2,7 +2,7 @@
   "_meta": {
     "sourceVersion": "v0.12-249plays-L2",
     "schemaVersion": "1",
-    "generatedAt": "2026-09-25T14:29:13.899Z"
+    "generatedAt": "2026-09-26T06:51:23.919Z"
   },
   "plays": [
     {
@@ -13,7 +13,10 @@
       "titleEn": "Izutsu",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_010.html"
       },
       "period": {
         "label": "室町前期",
@@ -201,7 +204,10 @@
       "titleEn": "Atsumori",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_008.html"
       },
       "period": {
         "label": "室町前期",
@@ -386,7 +392,10 @@
       "titleEn": "Sumidagawa",
       "author": {
         "label": "観世元雅",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_012.html"
       },
       "period": {
         "label": "室町前期",
@@ -593,8 +602,11 @@
       "titleKana": "しゅんかん",
       "titleEn": "Shunkan",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_040.html"
       },
       "period": {
         "label": "室町期",
@@ -798,8 +810,11 @@
       "titleKana": "あおいのうえ",
       "titleEn": "Aoi no Ue",
       "author": {
-        "label": "世阿弥改作説",
-        "state": "known"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_006.html"
       },
       "period": {
         "label": "室町前期",
@@ -997,8 +1012,11 @@
       "titleKana": "どうじょうじ",
       "titleEn": "Dojoji",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "観世信光",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_013.html"
       },
       "period": {
         "label": "室町期",
@@ -1186,8 +1204,11 @@
       "titleKana": "はごろも",
       "titleEn": "Hagoromo",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_011.html"
       },
       "period": {
         "label": "室町期",
@@ -1372,8 +1393,11 @@
       "titleKana": "はしべんけい",
       "titleEn": "Hashi Benkei",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_080.html"
       },
       "period": {
         "label": "室町期",
@@ -1553,8 +1577,11 @@
       "titleKana": "あたか",
       "titleEn": "Ataka",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "観世信光",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_009.html"
       },
       "period": {
         "label": "室町期",
@@ -1746,8 +1773,11 @@
       "titleKana": "ふなべんけい",
       "titleEn": "Funa Benkei",
       "author": {
-        "label": "観世小次郎信光",
-        "state": "known"
+        "label": "観世信光",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_003.html"
       },
       "period": {
         "label": "室町後期",
@@ -1994,7 +2024,10 @@
       "titleEn": "Takasago",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_015.html"
       },
       "period": {
         "label": "室町前期",
@@ -2210,8 +2243,11 @@
       "titleKana": "まつかぜ",
       "titleEn": "Matsukaze",
       "author": {
-        "label": "観阿弥作・世阿弥改作説",
-        "state": "known"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": true,
+        "sourceUrl": "https://the-noh.com/jp/plays/data/detail_043.html"
       },
       "period": {
         "label": "室町前期",
@@ -2425,8 +2461,11 @@
       "titleKana": "ののみや",
       "titleEn": "Nonomiya",
       "author": {
-        "label": "世阿弥説",
-        "state": "known"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_018.html"
       },
       "period": {
         "label": "室町前期",
@@ -2629,8 +2668,11 @@
       "titleKana": "ていか",
       "titleEn": "Teika",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_117.html"
       },
       "period": {
         "label": "室町期",
@@ -2825,8 +2867,11 @@
       "titleKana": "ゆや",
       "titleEn": "Yuya",
       "author": {
-        "label": "世阿弥",
-        "state": "known"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_016.html"
       },
       "period": {
         "label": "室町前期",
@@ -3025,8 +3070,11 @@
       "titleKana": "ひゃくまん",
       "titleEn": "Hyakuman",
       "author": {
-        "label": "世阿弥改作説",
-        "state": "known"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": true,
+        "sourceUrl": "https://the-noh.com/jp/plays/data/detail_087.html"
       },
       "period": {
         "label": "室町前期",
@@ -3204,8 +3252,11 @@
       "titleKana": "さくらがわ",
       "titleEn": "Sakuragawa",
       "author": {
-        "label": "世阿弥説",
-        "state": "known"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_039.html"
       },
       "period": {
         "label": "室町前期",
@@ -3405,8 +3456,11 @@
       "titleKana": "みいでら",
       "titleEn": "Miidera",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_056.html"
       },
       "period": {
         "label": "室町期",
@@ -3595,8 +3649,11 @@
       "titleKana": "はちのき",
       "titleEn": "Hachinoki",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_100.html"
       },
       "period": {
         "label": "室町期",
@@ -3771,7 +3828,10 @@
       "titleEn": "Kagekiyo",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_066.html"
       },
       "period": {
         "label": "室町前期",
@@ -3969,7 +4029,10 @@
       "titleEn": "Yorimasa",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_123.html"
       },
       "period": {
         "label": "室町前期",
@@ -4155,7 +4218,10 @@
       "titleEn": "Sanemori",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_096.html"
       },
       "period": {
         "label": "室町前期",
@@ -4340,7 +4406,10 @@
       "titleEn": "Kiyotsune",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_020.html"
       },
       "period": {
         "label": "室町前期",
@@ -4538,8 +4607,11 @@
       "titleKana": "かよいこまち",
       "titleEn": "Kayoi Komachi",
       "author": {
-        "label": "世阿弥説",
-        "state": "known"
+        "label": "観阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_023.html"
       },
       "period": {
         "label": "室町前期",
@@ -4722,8 +4794,11 @@
       "titleKana": "そとばこまち",
       "titleEn": "Sotoba Komachi",
       "author": {
-        "label": "観阿弥作・世阿弥改作説",
-        "state": "known"
+        "label": "観阿弥",
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_069.html"
       },
       "period": {
         "label": "室町前期",
@@ -4916,7 +4991,10 @@
       "titleEn": "Yamamba",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_046.html"
       },
       "period": {
         "label": "室町前期",
@@ -5112,8 +5190,11 @@
       "titleKana": "つちぐも",
       "titleEn": "Tsuchigumo",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_002.html"
       },
       "period": {
         "label": "室町期",
@@ -5325,7 +5406,10 @@
       "titleEn": "Nue",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_052.html"
       },
       "period": {
         "label": "室町前期",
@@ -5530,8 +5614,11 @@
       "titleKana": "くらまてんぐ",
       "titleEn": "Kurama Tengu",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "宮増",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -5723,8 +5810,11 @@
       "titleKana": "かんたん",
       "titleEn": "Kantan",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_059.html"
       },
       "period": {
         "label": "室町期",
@@ -5894,8 +5984,11 @@
       "titleKana": "おきな",
       "titleEn": "Okina",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_067.html"
       },
       "period": {
         "label": "成立古層・室町期以前",
@@ -6074,8 +6167,11 @@
       "titleKana": "かも",
       "titleEn": "Kamo",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_033.html"
       },
       "period": {
         "label": "室町期",
@@ -6271,7 +6367,10 @@
       "titleEn": "Yoro",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_017.html"
       },
       "period": {
         "label": "室町前期",
@@ -6462,8 +6561,11 @@
       "titleKana": "ちくぶしま",
       "titleEn": "Chikubushima",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_027.html"
       },
       "period": {
         "label": "室町期",
@@ -6669,8 +6771,11 @@
       "titleKana": "あらしやま",
       "titleEn": "Arashiyama",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "金春禅鳳",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_068.html"
       },
       "period": {
         "label": "室町期",
@@ -6869,8 +6974,11 @@
       "titleKana": "たむら",
       "titleEn": "Tamura",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_028.html"
       },
       "period": {
         "label": "室町期",
@@ -7053,7 +7161,10 @@
       "titleEn": "Yashima",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_019.html"
       },
       "period": {
         "label": "室町前期",
@@ -7245,8 +7356,11 @@
       "titleKana": "ともえ",
       "titleEn": "Tomoe",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_049.html"
       },
       "period": {
         "label": "室町期",
@@ -7444,7 +7558,10 @@
       "titleEn": "Tadanori",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_072.html"
       },
       "period": {
         "label": "室町前期",
@@ -7645,8 +7762,11 @@
       "titleKana": "かきつばた",
       "titleEn": "Kakitsubata",
       "author": {
-        "label": "世阿弥",
-        "state": "known"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_029.html"
       },
       "period": {
         "label": "室町前期",
@@ -7839,8 +7959,11 @@
       "titleKana": "えぐち",
       "titleEn": "Eguchi",
       "author": {
-        "label": "観阿弥作・世阿弥改作",
-        "state": "known"
+        "label": "観阿弥",
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_101.html"
       },
       "period": {
         "label": "室町前期",
@@ -8028,8 +8151,11 @@
       "titleKana": "とうぼく",
       "titleEn": "Toboku",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_050.html"
       },
       "period": {
         "label": "室町期",
@@ -8204,8 +8330,11 @@
       "titleKana": "はしとみ",
       "titleEn": "Hashitomi",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "内藤左衛門",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_022.html"
       },
       "period": {
         "label": "室町期",
@@ -8396,7 +8525,10 @@
       "titleEn": "Hanjo",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_034.html"
       },
       "period": {
         "label": "室町前期",
@@ -8593,7 +8725,10 @@
       "titleEn": "Yoroboshi",
       "author": {
         "label": "観世元雅",
-        "state": "known"
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_079.html"
       },
       "period": {
         "label": "室町前期",
@@ -8766,7 +8901,10 @@
       "titleEn": "Kinuta",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_094.html"
       },
       "period": {
         "label": "室町前期",
@@ -8955,7 +9093,10 @@
       "titleEn": "Koi no Omoni",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_064.html"
       },
       "period": {
         "label": "室町前期",
@@ -9128,8 +9269,11 @@
       "titleKana": "かなわ",
       "titleEn": "Kanawa",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_026.html"
       },
       "period": {
         "label": "室町期",
@@ -9331,8 +9475,11 @@
       "titleKana": "しゃっきょう",
       "titleEn": "Shakkyo",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_030.html"
       },
       "period": {
         "label": "室町期",
@@ -9519,8 +9666,11 @@
       "titleKana": "もみじがり",
       "titleEn": "Momijigari",
       "author": {
-        "label": "観世小次郎信光",
-        "state": "known"
+        "label": "観世信光",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_014.html"
       },
       "period": {
         "label": "室町後期",
@@ -9706,7 +9856,10 @@
       "titleEn": "Oimatsu",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町前期",
@@ -9914,7 +10067,10 @@
       "titleEn": "Hakurakuten",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町前期",
@@ -10109,8 +10265,11 @@
       "titleKana": "せいおうぼ",
       "titleEn": "Seiobo",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_089.html"
       },
       "period": {
         "label": "室町期",
@@ -10298,8 +10457,11 @@
       "titleKana": "つるかめ",
       "titleEn": "Tsurukame",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_047.html"
       },
       "period": {
         "label": "室町期",
@@ -10484,8 +10646,11 @@
       "titleKana": "えま",
       "titleEn": "Ema",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_082.html"
       },
       "period": {
         "label": "室町期",
@@ -10705,7 +10870,10 @@
       "titleEn": "Miwa",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_065.html"
       },
       "period": {
         "label": "室町前期",
@@ -10881,8 +11049,11 @@
       "titleKana": "いわふね",
       "titleEn": "Iwafune",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_060.html"
       },
       "period": {
         "label": "室町期",
@@ -11096,8 +11267,11 @@
       "titleKana": "めかり",
       "titleEn": "Mekari",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": true,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "室町期",
@@ -11285,8 +11459,11 @@
       "titleKana": "おおやしろ",
       "titleEn": "Oyashiro",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "観世長俊",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "室町期",
@@ -11486,8 +11663,11 @@
       "titleKana": "たまのい",
       "titleEn": "Tamanoi",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "観世信光",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "室町期",
@@ -11685,8 +11865,11 @@
       "titleKana": "えびら",
       "titleEn": "Ebira",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_061.html"
       },
       "period": {
         "label": "室町期",
@@ -11878,8 +12061,11 @@
       "titleKana": "かねひら",
       "titleEn": "Kanehira",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_128.html"
       },
       "period": {
         "label": "室町期",
@@ -12074,8 +12260,11 @@
       "titleKana": "ともなが",
       "titleEn": "Tomonaga",
       "author": {
-        "label": "世阿弥",
-        "state": "known"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_108.html"
       },
       "period": {
         "label": "室町前期",
@@ -12284,8 +12473,11 @@
       "titleKana": "みちもり",
       "titleEn": "Michimori",
       "author": {
-        "label": "世阿弥",
-        "state": "known"
+        "label": "井阿弥",
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": true,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町前期",
@@ -12510,7 +12702,10 @@
       "titleEn": "Tsunemasa",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_042.html"
       },
       "period": {
         "label": "室町前期",
@@ -12702,8 +12897,11 @@
       "titleKana": "ふじと",
       "titleEn": "Fujito",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_078.html"
       },
       "period": {
         "label": "室町期",
@@ -12903,8 +13101,11 @@
       "titleKana": "いかりかづき",
       "titleEn": "Ikari Kazuki",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "室町期",
@@ -13126,8 +13327,11 @@
       "titleKana": "いくたあつもり",
       "titleEn": "Ikuta Atsumori",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "金春禅鳳",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -13341,8 +13545,11 @@
       "titleKana": "しゅんぜいただのり",
       "titleEn": "Shunzei Tadanori",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -13545,8 +13752,11 @@
       "titleKana": "もりひさ",
       "titleEn": "Morihisa",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "観世元雅",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -13750,7 +13960,10 @@
       "titleEn": "Saigyo Zakura",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_113.html"
       },
       "period": {
         "label": "室町前期",
@@ -13932,7 +14145,10 @@
       "titleEn": "Obasute",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_105.html"
       },
       "period": {
         "label": "室町前期",
@@ -14129,7 +14345,10 @@
       "titleEn": "Higaki",
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_129.html"
       },
       "period": {
         "label": "室町前期",
@@ -14318,8 +14537,11 @@
       "titleKana": "ばしょう",
       "titleEn": "Basho",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_130.html"
       },
       "period": {
         "label": "室町期",
@@ -14501,8 +14723,11 @@
       "titleKana": "せいがんじ",
       "titleEn": "Seiganji",
       "author": {
-        "label": "世阿弥",
-        "state": "known"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町前期",
@@ -14686,8 +14911,11 @@
       "titleKana": "たまかずら",
       "titleEn": "Tamakazura",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -14874,8 +15102,11 @@
       "titleKana": "ようきひ",
       "titleEn": "Yokihi",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_083.html"
       },
       "period": {
         "label": "室町期",
@@ -15089,8 +15320,11 @@
       "titleKana": "うんりんいん",
       "titleEn": "Unrin-in",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -15298,8 +15532,11 @@
       "titleKana": "うねめ",
       "titleEn": "Uneme",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_111.html"
       },
       "period": {
         "label": "室町期",
@@ -15517,8 +15754,11 @@
       "titleKana": "ふたりしずか",
       "titleEn": "Futari Shizuka",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -15703,8 +15943,11 @@
       "titleKana": "せみまる",
       "titleEn": "Semimaru",
       "author": {
-        "label": "世阿弥",
-        "state": "known"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_057.html"
       },
       "period": {
         "label": "室町前期",
@@ -15913,8 +16156,11 @@
       "titleKana": "じねんこじ",
       "titleEn": "Jinen Koji",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "観阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_074.html"
       },
       "period": {
         "label": "室町期",
@@ -16132,8 +16378,11 @@
       "titleKana": "かげつ",
       "titleEn": "Kagetsu",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_051.html"
       },
       "period": {
         "label": "室町期",
@@ -16346,8 +16595,11 @@
       "titleKana": "もちづき",
       "titleEn": "Mochizuki",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -16549,8 +16801,11 @@
       "titleKana": "ほうかそう",
       "titleEn": "Hoka So",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_107.html"
       },
       "period": {
         "label": "室町期",
@@ -16743,8 +16998,11 @@
       "titleKana": "ようちそが",
       "titleEn": "Yauchi Soga",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "宮増",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -16940,8 +17198,11 @@
       "titleKana": "こごう",
       "titleEn": "Kogo",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_092.html"
       },
       "period": {
         "label": "室町期",
@@ -17144,8 +17405,11 @@
       "titleKana": "うたうら",
       "titleEn": "Utaura",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "観世元雅",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_106.html"
       },
       "period": {
         "label": "室町期",
@@ -17347,8 +17611,11 @@
       "titleKana": "せったい",
       "titleEn": "Settai",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "室町期",
@@ -17546,8 +17813,11 @@
       "titleKana": "みつやま",
       "titleEn": "Mitsuyama",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_125.html"
       },
       "period": {
         "label": "室町期",
@@ -17760,8 +18030,11 @@
       "titleKana": "あだちがはら",
       "titleEn": "Adachigahara",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_035.html"
       },
       "period": {
         "label": "室町期",
@@ -17956,8 +18229,11 @@
       "titleKana": "せっしょうせき",
       "titleEn": "Sesshoseki",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "日吉左阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_045.html"
       },
       "period": {
         "label": "室町期",
@@ -18134,8 +18410,11 @@
       "titleKana": "あま",
       "titleEn": "Ama",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_024.html"
       },
       "period": {
         "label": "室町期",
@@ -18328,8 +18607,11 @@
       "titleKana": "うかい",
       "titleEn": "Ukai",
       "author": {
-        "label": "榎並左衛門作・世阿弥改作説",
-        "state": "known"
+        "label": "榎並左衛門",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_032.html"
       },
       "period": {
         "label": "室町前期",
@@ -18543,8 +18825,11 @@
       "titleKana": "しょうじょう",
       "titleEn": "Shojo",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_053.html"
       },
       "period": {
         "label": "室町期",
@@ -18724,8 +19009,11 @@
       "titleKana": "おおえやま",
       "titleEn": "Oeyama",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -18925,8 +19213,11 @@
       "titleKana": "いっかくせんにん",
       "titleEn": "Ikkaku Sennin",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "金春禅鳳",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -19112,8 +19403,11 @@
       "titleKana": "だいえ",
       "titleEn": "Daie",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -19318,8 +19612,11 @@
       "titleKana": "ぜかい",
       "titleEn": "Zegai",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "竹田定盛",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -19514,8 +19811,11 @@
       "titleKana": "りょうこ",
       "titleEn": "Ryoko",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "観世信光",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "室町期",
@@ -19706,8 +20006,11 @@
       "titleKana": "なにわ",
       "titleEn": "Naniwa",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_114.html"
       },
       "period": {
         "label": "室町期",
@@ -19931,8 +20234,11 @@
       "titleKana": "ゆみやわた",
       "titleEn": "Yumi Yawata",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -20139,8 +20445,11 @@
       "titleKana": "ほうじょうがわ",
       "titleEn": "Hojogawa",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -20347,8 +20656,11 @@
       "titleKana": "きんさつ",
       "titleEn": "Kinsatsu",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "観阿弥",
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -20555,8 +20867,11 @@
       "titleKana": "うこん",
       "titleEn": "Ukon",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": true,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "室町期",
@@ -20769,8 +21084,11 @@
       "titleKana": "さかほこ",
       "titleEn": "Sakahoko",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "室町期",
@@ -20998,8 +21316,11 @@
       "titleKana": "かすがりゅうじん",
       "titleEn": "Kasuga Ryujin",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_093.html"
       },
       "period": {
         "label": "室町期",
@@ -21207,8 +21528,11 @@
       "titleKana": "ひむろ",
       "titleEn": "Himuro",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "宮増",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -21431,8 +21755,11 @@
       "titleKana": "ふじさん",
       "titleEn": "Fujisan",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": true,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -21639,8 +21966,11 @@
       "titleKana": "とうぼうさく",
       "titleEn": "Tobosaku",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "金春禅鳳",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_118.html"
       },
       "period": {
         "label": "室町期",
@@ -21869,8 +22199,11 @@
       "titleKana": "ともあきら",
       "titleEn": "Tomoakira",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -22096,8 +22429,11 @@
       "titleKana": "だいぶつくよう",
       "titleEn": "Daibutsu Kuyo",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "室町期",
@@ -22320,8 +22656,11 @@
       "titleKana": "しちきおち",
       "titleEn": "Shichiki Ochi",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -22553,8 +22892,11 @@
       "titleKana": "えぼしおり",
       "titleEn": "Eboshi Ori",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "宮増",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": true,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "室町期",
@@ -22783,8 +23125,11 @@
       "titleKana": "しょうぞん",
       "titleEn": "Shozon",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "観世長俊",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_081.html"
       },
       "period": {
         "label": "室町期",
@@ -23013,8 +23358,11 @@
       "titleKana": "くまさか",
       "titleEn": "Kumasaka",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_098.html"
       },
       "period": {
         "label": "室町期",
@@ -23243,8 +23591,11 @@
       "titleKana": "ただのぶ",
       "titleEn": "Tadanobu",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "室町期",
@@ -23472,8 +23823,11 @@
       "titleKana": "ぜんじそが",
       "titleEn": "Zenji Soga",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "室町期",
@@ -23702,8 +24056,11 @@
       "titleKana": "ちょうぶくそが",
       "titleEn": "Chobuku Soga",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "室町期",
@@ -23930,8 +24287,11 @@
       "titleKana": "きそ",
       "titleEn": "Kiso",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "室町期",
@@ -24165,8 +24525,11 @@
       "titleKana": "ゆうがお",
       "titleEn": "Yugao",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "室町期",
@@ -24394,8 +24757,11 @@
       "titleKana": "うきふね",
       "titleEn": "Ukifune",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -24620,8 +24986,11 @@
       "titleKana": "まつむし",
       "titleEn": "Matsumushi",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_124.html"
       },
       "period": {
         "label": "室町期",
@@ -24850,8 +25219,11 @@
       "titleKana": "せんじゅ",
       "titleEn": "Senju",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_091.html"
       },
       "period": {
         "label": "室町期",
@@ -25084,8 +25456,11 @@
       "titleKana": "とおる",
       "titleEn": "Toru",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_044.html"
       },
       "period": {
         "label": "室町期",
@@ -25298,8 +25673,11 @@
       "titleKana": "もとめづか",
       "titleEn": "Motomezuka",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "観阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -25528,8 +25906,11 @@
       "titleKana": "せきでらこまち",
       "titleEn": "Sekidera Komachi",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": true,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -25763,8 +26144,11 @@
       "titleKana": "おうむこまち",
       "titleEn": "Omu Komachi",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.tessen.org/dictionary/explain/oumukomachi"
       },
       "period": {
         "label": "室町期",
@@ -25977,8 +26361,11 @@
       "titleKana": "うげつ",
       "titleEn": "Ugetsu",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -26202,8 +26589,11 @@
       "titleKana": "かづらき",
       "titleEn": "Kazuraki",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_058.html"
       },
       "period": {
         "label": "室町期",
@@ -26431,8 +26821,11 @@
       "titleKana": "おはらごこう",
       "titleEn": "Ohara Goko",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_075.html"
       },
       "period": {
         "label": "室町期",
@@ -26665,8 +27058,11 @@
       "titleKana": "かしわざき",
       "titleEn": "Kashiwazaki",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "榎並左衛門",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -26895,8 +27291,11 @@
       "titleKana": "とくさ",
       "titleEn": "Tokusa",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -27125,8 +27524,11 @@
       "titleKana": "みなづきばらい",
       "titleEn": "Minazuki Barai",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/水無月祓_(能)"
       },
       "period": {
         "label": "室町期",
@@ -27339,8 +27741,11 @@
       "titleKana": "とりおいぶね",
       "titleEn": "Torioibune",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -27577,8 +27982,11 @@
       "titleKana": "ひばりやま",
       "titleEn": "Hibariyama",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -27806,8 +28214,11 @@
       "titleKana": "あいぞめがわ",
       "titleEn": "Aizomegawa",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -28050,8 +28461,11 @@
       "titleKana": "ろうだいこ",
       "titleEn": "Rodaiko",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -28276,8 +28690,11 @@
       "titleKana": "うとう",
       "titleEn": "Uto",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_063.html"
       },
       "period": {
         "label": "室町期",
@@ -28505,8 +28922,11 @@
       "titleKana": "ふじだいこ",
       "titleEn": "Fuji Daiko",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_095.html"
       },
       "period": {
         "label": "室町期",
@@ -28743,8 +29163,11 @@
       "titleKana": "こかじ",
       "titleEn": "Kokaji",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_037.html"
       },
       "period": {
         "label": "室町期",
@@ -28971,8 +29394,11 @@
       "titleKana": "のもり",
       "titleEn": "Nomori",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_112.html"
       },
       "period": {
         "label": "室町期",
@@ -29180,8 +29606,11 @@
       "titleKana": "らいでん",
       "titleEn": "Raiden",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "室町期",
@@ -29409,8 +29838,11 @@
       "titleKana": "らしょうもん",
       "titleEn": "Rashomon",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "観世信光",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "室町期",
@@ -29639,8 +30071,11 @@
       "titleKana": "こうてい",
       "titleEn": "Kotei",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "観世信光",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "室町期",
@@ -29877,8 +30312,11 @@
       "titleKana": "しゃり",
       "titleEn": "Shari",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_120.html"
       },
       "period": {
         "label": "室町期",
@@ -30105,8 +30543,11 @@
       "titleKana": "しょうき",
       "titleEn": "Shoki",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "室町期",
@@ -30334,8 +30775,11 @@
       "titleKana": "くるまぞう",
       "titleEn": "Kuruma Zo",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期",
@@ -30563,8 +31007,11 @@
       "titleKana": "ひうん",
       "titleEn": "Hiun",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.tessen.org/dictionary/explain/hiun"
       },
       "period": {
         "label": "室町期",
@@ -30776,8 +31223,11 @@
       "titleKana": "かんようきゅう",
       "titleEn": "Kanyo Kyu",
       "author": {
-        "label": "不詳",
-        "state": "unknown"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "室町期",
@@ -31022,8 +31472,11 @@
       "titleKana": "あこぎ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_070.html"
       },
       "period": {
         "label": "要確認",
@@ -31223,8 +31676,11 @@
       "titleKana": "あしかり",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_090.html"
       },
       "period": {
         "label": "要確認",
@@ -31426,8 +31882,11 @@
       "titleKana": "あすかがわ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -31627,8 +32086,11 @@
       "titleKana": "あやのつづみ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_102.html"
       },
       "period": {
         "label": "要確認",
@@ -31840,8 +32302,11 @@
       "titleKana": "ありどおし",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -32043,8 +32508,11 @@
       "titleKana": "あわじ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "観阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -32244,8 +32712,11 @@
       "titleKana": "うちともうで",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "金剛長頼",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",
@@ -32495,8 +32966,11 @@
       "titleKana": "うのまつり",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -32777,8 +33251,11 @@
       "titleKana": "うめ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "江戸時代中期",
@@ -32985,8 +33462,11 @@
       "titleKana": "うめがえ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -33214,8 +33694,11 @@
       "titleKana": "うろこがた",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -33408,8 +33891,11 @@
       "titleKana": "えのしま",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "観世長俊",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",
@@ -33641,8 +34127,11 @@
       "titleKana": "おしお",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -33853,8 +34342,11 @@
       "titleKana": "おちば",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -34119,8 +34611,11 @@
       "titleKana": "おみなめし",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_115.html"
       },
       "period": {
         "label": "要確認",
@@ -34347,8 +34842,11 @@
       "titleKana": "おろち",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "観世信光",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",
@@ -34567,8 +35065,11 @@
       "titleKana": "かっぽ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -34771,8 +35272,11 @@
       "titleKana": "かもものぐるい",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -34973,8 +35477,11 @@
       "titleKana": "きくじどう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.tessen.org/dictionary/explain/kikujidou/kikujidou_2011"
       },
       "period": {
         "label": "要確認",
@@ -35175,8 +35682,11 @@
       "titleKana": "ぎおう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -35397,8 +35907,11 @@
       "titleKana": "くさなぎ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -35641,8 +36154,11 @@
       "titleKana": "くすのつゆ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://da.dl.itc.u-tokyo.ac.jp/portal/assets/13d8d174-519b-04af-0458-733c9221a10c"
       },
       "period": {
         "label": "明治時代",
@@ -35855,8 +36371,11 @@
       "titleKana": "くず",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_088.html"
       },
       "period": {
         "label": "要確認",
@@ -36095,8 +36614,11 @@
       "titleKana": "くせのと",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "観世信光",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",
@@ -36321,8 +36843,11 @@
       "titleKana": "くれは",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -36545,8 +37070,11 @@
       "titleKana": "げんざいしちめん",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -36750,8 +37278,11 @@
       "titleKana": "げんざいただのり",
       "titleEn": null,
       "author": {
-        "label": "内藤左衛門か（要確認）",
-        "state": "known"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "室町期か（要確認）",
@@ -37032,8 +37563,11 @@
       "titleKana": "げんざいぬえ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -37289,8 +37823,11 @@
       "titleKana": "げんじくよう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -37501,8 +38038,11 @@
       "titleKana": "げんじょう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_126.html"
       },
       "period": {
         "label": "要確認",
@@ -37733,8 +38273,11 @@
       "titleKana": "げんだゆう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "喜阿弥",
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -37951,8 +38494,11 @@
       "titleKana": "こうう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -38178,8 +38724,11 @@
       "titleKana": "こうやものぐるい",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",
@@ -38380,8 +38929,11 @@
       "titleKana": "こそでそが",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -38622,8 +39174,11 @@
       "titleKana": "こちょう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "観世信光",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_062.html"
       },
       "period": {
         "label": "要確認",
@@ -38834,8 +39389,11 @@
       "titleKana": "さおやま",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -39041,8 +39599,11 @@
       "titleKana": "さぎ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_104.html"
       },
       "period": {
         "label": "要確認",
@@ -39259,8 +39820,11 @@
       "titleKana": "さくらいのえき",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -39499,8 +40063,11 @@
       "titleKana": "さど",
       "titleEn": "金春信高",
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "金春信高",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "現代",
@@ -39738,8 +40305,11 @@
       "titleKana": "さねかた",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "金春信高",
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": true,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",
@@ -39957,7 +40527,10 @@
       "titleEn": null,
       "author": {
         "label": "土岐善麿",
-        "state": "known"
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "昭和25年（1950）",
@@ -40229,8 +40802,11 @@
       "titleKana": "さんしょう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.tessen.org/dictionary/explain/sansyo"
       },
       "period": {
         "label": "要確認",
@@ -40455,8 +41031,11 @@
       "titleKana": "しが",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",
@@ -40676,8 +41255,11 @@
       "titleKana": "しゅんえい",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -40916,8 +41498,11 @@
       "titleKana": "しょうくん",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -41138,8 +41723,11 @@
       "titleKana": "しらひげ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -41381,8 +41969,11 @@
       "titleKana": "しろぬし",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",
@@ -41584,8 +42175,11 @@
       "titleKana": "すまげんじ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": true,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",
@@ -41805,8 +42399,11 @@
       "titleKana": "すみぞめさくら",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -42077,8 +42674,11 @@
       "titleKana": "すみよしもうで",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -42299,8 +42899,11 @@
       "titleKana": "そうしあらいこまち",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_109.html"
       },
       "period": {
         "label": "要確認",
@@ -42551,7 +43154,10 @@
       "titleEn": null,
       "author": {
         "label": "世阿弥",
-        "state": "known"
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",
@@ -42812,8 +43418,11 @@
       "titleKana": "たいてん",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/trivia/158.html"
       },
       "period": {
         "label": "要確認",
@@ -43023,8 +43632,11 @@
       "titleKana": "たいへいしょうじょう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -43254,8 +43866,11 @@
       "titleKana": "たえま",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -43477,8 +44092,11 @@
       "titleKana": "たけのゆき",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -43748,8 +44366,11 @@
       "titleKana": "たつた",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_116.html"
       },
       "period": {
         "label": "要確認",
@@ -43969,8 +44590,11 @@
       "titleKana": "たにこう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -44233,8 +44857,11 @@
       "titleKana": "だいろくてん",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -44501,8 +45128,11 @@
       "titleKana": "だんぷう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -44784,8 +45414,11 @@
       "titleKana": "ちょうりょう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "観世信光",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_097.html"
       },
       "period": {
         "label": "要確認",
@@ -45021,8 +45654,11 @@
       "titleKana": "つちぐるま",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://noh-oshima.com/tebiki/tebiki-tutiguruma.html"
       },
       "period": {
         "label": "要確認",
@@ -45250,8 +45886,11 @@
       "titleKana": "つる",
       "titleEn": null,
       "author": {
-        "label": "土岐善麿",
-        "state": "known"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_047.html"
       },
       "period": {
         "label": "昭和34年（1959）",
@@ -45474,8 +46113,11 @@
       "titleKana": "てんこ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_021.html"
       },
       "period": {
         "label": "要確認",
@@ -45726,8 +46368,11 @@
       "titleKana": "とうえい",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -45997,8 +46642,11 @@
       "titleKana": "とうがんこじ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -46209,8 +46857,11 @@
       "titleKana": "とうせん",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_084.html"
       },
       "period": {
         "label": "要確認",
@@ -46480,8 +47131,11 @@
       "titleKana": "どうみょうじ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -46729,8 +47383,11 @@
       "titleKana": "なかみつ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.tessen.org/dictionary/explain/nakamitsu"
       },
       "period": {
         "label": "要確認",
@@ -46985,8 +47642,11 @@
       "titleKana": "ながら",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -47225,8 +47885,11 @@
       "titleKana": "にしきぎ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -47487,8 +48150,11 @@
       "titleKana": "にしきど",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "宮増",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": true,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",
@@ -47742,8 +48408,11 @@
       "titleKana": "ねざめ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -47997,8 +48666,11 @@
       "titleKana": "はつゆき",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "金春禅鳳",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -48205,8 +48877,11 @@
       "titleKana": "はながたみ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_077.html"
       },
       "period": {
         "label": "要確認",
@@ -48471,8 +49146,11 @@
       "titleKana": "ひでひら",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "土岐善麿",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",
@@ -48729,8 +49407,11 @@
       "titleKana": "ふじ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_073.html"
       },
       "period": {
         "label": "要確認",
@@ -48945,8 +49626,11 @@
       "titleKana": "ふたりぎおう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -49186,8 +49870,11 @@
       "titleKana": "ふなばし",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": true,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -49433,8 +50120,11 @@
       "titleKana": "ほうそ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -49641,8 +50331,11 @@
       "titleKana": "ほとけがはら",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "金春禅竹",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.tessen.org/dictionary/explain/hotokenohara"
       },
       "period": {
         "label": "要確認",
@@ -49919,8 +50612,11 @@
       "titleKana": "まきぎぬ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": true,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_038.html"
       },
       "period": {
         "label": "要確認",
@@ -50167,8 +50863,11 @@
       "titleKana": "まくらじどう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_085.html"
       },
       "period": {
         "label": "要確認",
@@ -50395,8 +51094,11 @@
       "titleKana": "まつのお",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -50623,8 +51325,11 @@
       "titleKana": "まつやまかがみ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -50880,8 +51585,11 @@
       "titleKana": "まつやまてんぐ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -51145,8 +51853,11 @@
       "titleKana": "まんじゅう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.tessen.org/dictionary/explain/nakamitsu"
       },
       "period": {
         "label": "要確認",
@@ -51401,8 +52112,11 @@
       "titleKana": "みなせ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -51653,8 +52367,11 @@
       "titleKana": "みのぶ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "needs_review",
+        "status": "要追加文献確認",
+        "uncertain": false,
+        "sourceUrl": null
       },
       "period": {
         "label": "要確認",
@@ -51870,8 +52587,11 @@
       "titleKana": "みもすそ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "世阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": true,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -52107,8 +52827,11 @@
       "titleKana": "むつら",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -52328,8 +53051,11 @@
       "titleKana": "むろぎみ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "unknown",
+        "status": "不詳",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -52561,8 +53287,11 @@
       "titleKana": "ゆき",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "金春禅鳳",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -52748,8 +53477,11 @@
       "titleKana": "ゆぎょうやなぎ",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "観世信光",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_119.html"
       },
       "period": {
         "label": "要確認",
@@ -52987,8 +53719,11 @@
       "titleKana": "ゆめどの",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "土岐善麿",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",
@@ -53225,8 +53960,11 @@
       "titleKana": "よしのしずか",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "観阿弥",
+        "state": "known",
+        "status": "異説あり",
+        "uncertain": false,
+        "sourceUrl": "https://www.komparunews.com/sakusya"
       },
       "period": {
         "label": "要確認",
@@ -53479,8 +54217,11 @@
       "titleKana": "よしのてんにん",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "観世信光",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",
@@ -53711,8 +54452,11 @@
       "titleKana": "らいでん",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": null,
+        "state": "known",
+        "status": "複合作者情報",
+        "uncertain": true,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",
@@ -53944,8 +54688,11 @@
       "titleKana": "りんぞう",
       "titleEn": null,
       "author": {
-        "label": "要確認",
-        "state": "needs_review"
+        "label": "観世長俊",
+        "state": "known",
+        "status": "確認済",
+        "uncertain": false,
+        "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
       },
       "period": {
         "label": "要確認",

@@ -1,0 +1,2250 @@
+{
+  "_doc": "作者監査（the能ドットコム等で確認）。play_id→作者・確認状態・出典。build-public-data が公開データの作者を上書きする。人手管理。",
+  "version": "0.1",
+  "checkedAt": "2026-09-26",
+  "sourceVersion": "noh_play_author_audit_v0_1",
+  "generatedAt": "2026-09-26T06:49:45.127057+00:00",
+  "map": {
+    "N0001": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_010.html"
+    },
+    "N0002": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_008.html"
+    },
+    "N0003": {
+      "author": "観世元雅",
+      "uncertain": false,
+      "raw": "観世十郎元雅",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_012.html"
+    },
+    "N0004": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不詳",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "不詳",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_040.html"
+    },
+    "N0005": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_006.html"
+    },
+    "N0006": {
+      "author": "観世信光",
+      "uncertain": false,
+      "raw": "観世小次郎信光",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_013.html"
+    },
+    "N0007": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥（一説）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_011.html"
+    },
+    "N0008": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（一説に日吉佐阿弥安清）",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_080.html"
+    },
+    "N0009": {
+      "author": "観世信光",
+      "uncertain": true,
+      "raw": "観世小次郎信光（一説）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_009.html"
+    },
+    "N0010": {
+      "author": "観世信光",
+      "uncertain": false,
+      "raw": "観世小次郎信光",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_003.html"
+    },
+    "N0011": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_015.html"
+    },
+    "N0012": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥改作。",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://the-noh.com/jp/plays/data/detail_043.html"
+    },
+    "N0013": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_018.html"
+    },
+    "N0014": {
+      "author": "金春禅竹",
+      "uncertain": true,
+      "raw": "金春禅竹題材  | 定家と式子内親王に関する伝説",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_117.html"
+    },
+    "N0015": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不詳",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "不詳",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_016.html"
+    },
+    "N0016": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥（観阿弥原作の「嵯峨物狂」の改作）",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://the-noh.com/jp/plays/data/detail_087.html"
+    },
+    "N0017": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_039.html"
+    },
+    "N0018": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_056.html"
+    },
+    "N0019": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_100.html"
+    },
+    "N0020": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "不詳（一説・世阿弥）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_066.html"
+    },
+    "N0021": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_123.html"
+    },
+    "N0022": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥題材  | 『平家物語』巻七・実盛最期の事",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_096.html"
+    },
+    "N0023": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_020.html"
+    },
+    "N0024": {
+      "author": "観阿弥",
+      "uncertain": true,
+      "raw": "観阿弥改作",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_023.html"
+    },
+    "N0025": {
+      "author": "観阿弥",
+      "uncertain": false,
+      "raw": "観阿弥",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_069.html"
+    },
+    "N0026": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥（一説）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_046.html"
+    },
+    "N0027": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不詳",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "不詳",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_002.html"
+    },
+    "N0028": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_052.html"
+    },
+    "N0029": {
+      "author": "宮増",
+      "uncertain": false,
+      "raw": "宮増",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0030": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不詳",
+      "status": "確認済",
+      "state": "known",
+      "relation": "不詳",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_059.html"
+    },
+    "N0031": {
+      "author": null,
+      "uncertain": false,
+      "raw": "-",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_067.html"
+    },
+    "N0032": {
+      "author": "金春禅竹",
+      "uncertain": true,
+      "raw": "金春禅竹［一説に一部宝生太夫作と伝えられる］",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_033.html"
+    },
+    "N0033": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_017.html"
+    },
+    "N0034": {
+      "author": "金春禅竹",
+      "uncertain": true,
+      "raw": "金春禅竹（一説）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_027.html"
+    },
+    "N0035": {
+      "author": "金春禅鳳",
+      "uncertain": false,
+      "raw": "金春禅鳳",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_068.html"
+    },
+    "N0036": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_028.html"
+    },
+    "N0037": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_019.html"
+    },
+    "N0038": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_049.html"
+    },
+    "N0039": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_072.html"
+    },
+    "N0040": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（世阿弥または金春禅竹との説あり）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_029.html"
+    },
+    "N0041": {
+      "author": "観阿弥",
+      "uncertain": true,
+      "raw": "観阿弥（世阿弥改作）",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_101.html"
+    },
+    "N0042": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥（一説）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_050.html"
+    },
+    "N0043": {
+      "author": "内藤左衛門",
+      "uncertain": true,
+      "raw": "内藤左衛門（一説）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_022.html"
+    },
+    "N0044": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_034.html"
+    },
+    "N0045": {
+      "author": "観世元雅",
+      "uncertain": false,
+      "raw": "観世十郎元雅（クセは世阿弥作）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_079.html"
+    },
+    "N0046": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_094.html"
+    },
+    "N0047": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_064.html"
+    },
+    "N0048": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不詳",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "不詳",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_026.html"
+    },
+    "N0049": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_030.html"
+    },
+    "N0050": {
+      "author": "観世信光",
+      "uncertain": false,
+      "raw": "観世小次郎信光",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_014.html"
+    },
+    "N0051": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0052": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥作・信光補訂の可能性）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0053": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_089.html"
+    },
+    "N0054": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_047.html"
+    },
+    "N0055": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（金剛某とも）",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_082.html"
+    },
+    "N0056": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "不詳（一説・世阿弥）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_065.html"
+    },
+    "N0057": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不詳",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "不詳",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_060.html"
+    },
+    "N0058": {
+      "author": "金春禅竹",
+      "uncertain": true,
+      "raw": "金春禅竹作か",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0059": {
+      "author": "観世長俊",
+      "uncertain": false,
+      "raw": "観世長俊作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0060": {
+      "author": "観世信光",
+      "uncertain": false,
+      "raw": "観世信光作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0061": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥（一説）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_061.html"
+    },
+    "N0062": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_128.html"
+    },
+    "N0063": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_108.html"
+    },
+    "N0064": {
+      "author": "井阿弥",
+      "uncertain": true,
+      "raw": "井阿弥原作・世阿弥改作",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0065": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥（一説）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_042.html"
+    },
+    "N0066": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_078.html"
+    },
+    "N0067": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0068": {
+      "author": "金春禅鳳",
+      "uncertain": false,
+      "raw": "金春禅鳳",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0069": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0070": {
+      "author": "観世元雅",
+      "uncertain": false,
+      "raw": "観世元雅",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0071": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥（一説・金春禅竹）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_113.html"
+    },
+    "N0072": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_105.html"
+    },
+    "N0073": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_129.html"
+    },
+    "N0074": {
+      "author": "金春禅竹",
+      "uncertain": false,
+      "raw": "金春禅竹",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_130.html"
+    },
+    "N0075": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0076": {
+      "author": "金春禅竹",
+      "uncertain": false,
+      "raw": "金春禅竹",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0077": {
+      "author": "金春禅竹",
+      "uncertain": false,
+      "raw": "金春禅竹",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_083.html"
+    },
+    "N0078": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（古作は世阿弥？）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0079": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_111.html"
+    },
+    "N0080": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（古作？）",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0081": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_057.html"
+    },
+    "N0082": {
+      "author": "観阿弥",
+      "uncertain": false,
+      "raw": "観阿弥",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_074.html"
+    },
+    "N0083": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（一説に世阿弥）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_051.html"
+    },
+    "N0084": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0085": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_107.html"
+    },
+    "N0086": {
+      "author": "宮増",
+      "uncertain": false,
+      "raw": "宮増",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0087": {
+      "author": "金春禅竹",
+      "uncertain": false,
+      "raw": "金春禅竹題材  | 『平家物語』巻六・小督",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_092.html"
+    },
+    "N0088": {
+      "author": "観世元雅",
+      "uncertain": false,
+      "raw": "観世元雅",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_106.html"
+    },
+    "N0089": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0090": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_125.html"
+    },
+    "N0091": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（金春禅竹あるいは世阿弥とする説もあり）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_035.html"
+    },
+    "N0092": {
+      "author": "日吉左阿弥",
+      "uncertain": true,
+      "raw": "日吉左阿弥（一説）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_045.html"
+    },
+    "N0093": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不詳",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "不詳",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_024.html"
+    },
+    "N0094": {
+      "author": "榎並左衛門",
+      "uncertain": true,
+      "raw": "榎並左衛門五郎（えなみさえもんごろう）［世阿弥改作］",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_032.html"
+    },
+    "N0095": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_053.html"
+    },
+    "N0096": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0097": {
+      "author": "金春禅鳳",
+      "uncertain": false,
+      "raw": "金春禅鳳",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0098": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0099": {
+      "author": "竹田定盛",
+      "uncertain": false,
+      "raw": "竹田法印定盛",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0100": {
+      "author": "観世信光",
+      "uncertain": false,
+      "raw": "観世信光作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0101": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_114.html"
+    },
+    "N0102": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0103": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0104": {
+      "author": "観阿弥",
+      "uncertain": false,
+      "raw": "観阿弥",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0105": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥作（観世信光改作）",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0106": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0107": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（一説・金春禅竹、世阿弥とも）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_093.html"
+    },
+    "N0108": {
+      "author": "宮増",
+      "uncertain": false,
+      "raw": "宮増",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0109": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥原作・禅鳳改作",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0110": {
+      "author": "金春禅鳳",
+      "uncertain": false,
+      "raw": "金春禅鳳",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_118.html"
+    },
+    "N0111": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0112": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0113": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0114": {
+      "author": "宮増",
+      "uncertain": true,
+      "raw": "宮増作か",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0115": {
+      "author": "観世長俊",
+      "uncertain": false,
+      "raw": "観世弥次郎長俊",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_081.html"
+    },
+    "N0116": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_098.html"
+    },
+    "N0117": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0118": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0119": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0120": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0121": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0122": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥作（横尾元久作詞）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0123": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（世阿弥や金春禅竹の作という説がある）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_124.html"
+    },
+    "N0124": {
+      "author": "金春禅竹",
+      "uncertain": false,
+      "raw": "金春禅竹",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_091.html"
+    },
+    "N0125": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_044.html"
+    },
+    "N0126": {
+      "author": "観阿弥",
+      "uncertain": true,
+      "raw": "観阿弥？",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0127": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥か",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0128": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不詳",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "不詳",
+      "sourceUrl": "https://www.tessen.org/dictionary/explain/oumukomachi"
+    },
+    "N0129": {
+      "author": "金春禅竹",
+      "uncertain": false,
+      "raw": "金春禅竹",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0130": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不詳",
+      "status": "確認済",
+      "state": "known",
+      "relation": "不詳",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_058.html"
+    },
+    "N0131": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不詳",
+      "status": "確認済",
+      "state": "known",
+      "relation": "不詳",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_075.html"
+    },
+    "N0132": {
+      "author": "榎並左衛門",
+      "uncertain": true,
+      "raw": "榎並左衛門原作（世阿弥改作）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0133": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥？",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0134": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥説（日吉安清説あり）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/水無月祓_(能)"
+    },
+    "N0135": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0136": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0137": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0138": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0139": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（一説に世阿弥）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_063.html"
+    },
+    "N0140": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_095.html"
+    },
+    "N0141": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_037.html"
+    },
+    "N0142": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_112.html"
+    },
+    "N0143": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0144": {
+      "author": "観世信光",
+      "uncertain": false,
+      "raw": "観世信光作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0145": {
+      "author": "観世信光",
+      "uncertain": false,
+      "raw": "観世信光作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0146": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不詳",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "不詳",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_120.html"
+    },
+    "N0147": {
+      "author": "金春禅竹",
+      "uncertain": false,
+      "raw": "金春禅竹作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0148": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0149": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不詳",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "不詳",
+      "sourceUrl": "https://www.tessen.org/dictionary/explain/hiun"
+    },
+    "N0150": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0151": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明［一説に河上神主（かわかみ・かんぬし）、別の一説に世阿弥］",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_070.html"
+    },
+    "N0152": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥元清",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_090.html"
+    },
+    "N0153": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0154": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_102.html"
+    },
+    "N0155": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0156": {
+      "author": "観阿弥",
+      "uncertain": false,
+      "raw": "観阿弥曲の曲舞所引・完曲は作者不明",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0157": {
+      "author": "金剛長頼",
+      "uncertain": false,
+      "raw": "金剛長頼作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0158": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（室町末期金春座系）",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0159": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0160": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0161": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0162": {
+      "author": "観世長俊",
+      "uncertain": false,
+      "raw": "観世長俊作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0163": {
+      "author": "金春禅竹",
+      "uncertain": false,
+      "raw": "金春禅竹",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0164": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0165": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_115.html"
+    },
+    "N0166": {
+      "author": "観世信光",
+      "uncertain": false,
+      "raw": "観世信光作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0167": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0168": {
+      "author": "金春禅竹",
+      "uncertain": true,
+      "raw": "金春禅竹？",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0169": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不詳",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "不詳",
+      "sourceUrl": "https://www.tessen.org/dictionary/explain/kikujidou/kikujidou_2011"
+    },
+    "N0170": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0171": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0172": {
+      "author": null,
+      "uncertain": false,
+      "raw": "伝・根津某",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://da.dl.itc.u-tokyo.ac.jp/portal/assets/13d8d174-519b-04af-0458-733c9221a10c"
+    },
+    "N0173": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（一説・世阿弥）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_088.html"
+    },
+    "N0174": {
+      "author": "観世信光",
+      "uncertain": false,
+      "raw": "観世信光作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0175": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥？",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0176": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0177": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0178": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0179": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0180": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（金剛彌五郎とも）題材  | 『平家物語』巻七・青山の沙汰の事など",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_126.html"
+    },
+    "N0181": {
+      "author": "喜阿弥",
+      "uncertain": false,
+      "raw": "喜阿弥作曲",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0182": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0183": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥作. 曲中の「高野曲舞」は観世元雅作",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0184": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（宮増とも）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0185": {
+      "author": "観世信光",
+      "uncertain": false,
+      "raw": "観世小次郎信光",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_062.html"
+    },
+    "N0186": {
+      "author": "金春禅竹",
+      "uncertain": true,
+      "raw": "金春禅竹？",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0187": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_104.html"
+    },
+    "N0188": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0189": {
+      "author": "金春信高",
+      "uncertain": false,
+      "raw": "金春信高作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0190": {
+      "author": "金春信高",
+      "uncertain": true,
+      "raw": "昭和63年復曲. 詞章の一部は金春信高・堂本正樹による改作.",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0191": {
+      "author": "土岐善麿",
+      "uncertain": false,
+      "raw": "土岐善麿",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "作",
+      "sourceUrl": null
+    },
+    "N0192": {
+      "author": null,
+      "uncertain": true,
+      "raw": "細川成之説",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.tessen.org/dictionary/explain/sansyo"
+    },
+    "N0193": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0194": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥？",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0195": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（古作・金春系）",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0196": {
+      "author": null,
+      "uncertain": true,
+      "raw": "「能・狂言事典」と同説",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0197": {
+      "author": "金春禅竹",
+      "uncertain": false,
+      "raw": "金春禅竹作か. 別名「葛城鴨」",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0198": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "古作を世阿弥改作か",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0199": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0200": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0201": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_109.html"
+    },
+    "N0202": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥作. 観世流では「泰山木」として令和3年に復曲.",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0203": {
+      "author": null,
+      "uncertain": false,
+      "raw": "藤代禎輔作詞・観世元滋節付",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://www.the-noh.com/jp/trivia/158.html"
+    },
+    "N0204": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0205": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0206": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0207": {
+      "author": "金春禅竹",
+      "uncertain": false,
+      "raw": "金春禅竹",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_116.html"
+    },
+    "N0208": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（金春禅竹とも）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0209": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0210": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0211": {
+      "author": "観世信光",
+      "uncertain": false,
+      "raw": "観世小次郎信光",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_097.html"
+    },
+    "N0212": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://noh-oshima.com/tebiki/tebiki-tutiguruma.html"
+    },
+    "N0213": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_047.html"
+    },
+    "N0214": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥（一説）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_021.html"
+    },
+    "N0215": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（古作）",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0216": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0217": {
+      "author": null,
+      "uncertain": true,
+      "raw": "作者不詳（一説：外山又五郎吉広）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_084.html"
+    },
+    "N0218": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0219": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不詳",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "不詳",
+      "sourceUrl": "https://www.tessen.org/dictionary/explain/nakamitsu"
+    },
+    "N0220": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0221": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0222": {
+      "author": "宮増",
+      "uncertain": true,
+      "raw": "宮増作か",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0223": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0224": {
+      "author": "金春禅鳳",
+      "uncertain": false,
+      "raw": "金春禅鳳",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0225": {
+      "author": "世阿弥",
+      "uncertain": false,
+      "raw": "世阿弥（クセは観阿弥）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_077.html"
+    },
+    "N0226": {
+      "author": "土岐善麿",
+      "uncertain": false,
+      "raw": "土岐善麿作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0227": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_073.html"
+    },
+    "N0228": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0229": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥改作",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0230": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0231": {
+      "author": "金春禅竹",
+      "uncertain": false,
+      "raw": "不詳（金春禅竹説）",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作者説",
+      "sourceUrl": "https://www.tessen.org/dictionary/explain/hotokenohara"
+    },
+    "N0232": {
+      "author": null,
+      "uncertain": true,
+      "raw": "不詳題材  | 「沙石集」巻五末所収の歌徳説話によるものか",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作者説",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_038.html"
+    },
+    "N0233": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_085.html"
+    },
+    "N0234": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0235": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0236": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0237": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不詳",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "不詳",
+      "sourceUrl": "https://www.tessen.org/dictionary/explain/nakamitsu"
+    },
+    "N0238": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0239": {
+      "author": null,
+      "uncertain": false,
+      "raw": "未確認",
+      "status": "要追加文献確認",
+      "state": "needs_review",
+      "relation": "未確認",
+      "sourceUrl": null
+    },
+    "N0240": {
+      "author": "世阿弥",
+      "uncertain": true,
+      "raw": "世阿弥？",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0241": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明（金春系）",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0242": {
+      "author": null,
+      "uncertain": false,
+      "raw": "不明",
+      "status": "不詳",
+      "state": "unknown",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0243": {
+      "author": "金春禅鳳",
+      "uncertain": false,
+      "raw": "金春禅鳳",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0244": {
+      "author": "観世信光",
+      "uncertain": false,
+      "raw": "観世信光",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.the-noh.com/jp/plays/data/detail_119.html"
+    },
+    "N0245": {
+      "author": "土岐善麿",
+      "uncertain": false,
+      "raw": "土岐善麿作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0246": {
+      "author": "観阿弥",
+      "uncertain": false,
+      "raw": "観阿弥",
+      "status": "異説あり",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://www.komparunews.com/sakusya"
+    },
+    "N0247": {
+      "author": "観世信光",
+      "uncertain": false,
+      "raw": "観世信光作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0248": {
+      "author": null,
+      "uncertain": true,
+      "raw": "加賀藩主前田家が菅公の末裔であることから、「雷電」の後シテを天神として神舞を舞うよう改作",
+      "status": "複合作者情報",
+      "state": "known",
+      "relation": "複合",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    },
+    "N0249": {
+      "author": "観世長俊",
+      "uncertain": false,
+      "raw": "観世長俊作",
+      "status": "確認済",
+      "state": "known",
+      "relation": "作",
+      "sourceUrl": "https://ja.wikipedia.org/wiki/能の現行演目一覧"
+    }
+  }
+}

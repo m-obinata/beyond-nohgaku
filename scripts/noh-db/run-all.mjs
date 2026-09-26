@@ -15,6 +15,7 @@ const steps = [
   { name: 'import (Excel→raw)', cmd: python, args: [join(here, 'import_workbook.py')] },
   { name: 'validate', cmd: process.execPath, args: [join(here, 'validate-workbook.mjs')] },
   { name: 'normalize', cmd: process.execPath, args: [join(here, 'normalize-data.mjs')] },
+  { name: 'author-audit (Excel→authors.json)', cmd: python, args: [join(here, 'import_author_audit.py')] },
   { name: 'build-public', cmd: process.execPath, args: [join(here, 'build-public-data.mjs')] },
   { name: 'check-rights-risk', cmd: process.execPath, args: [join(here, 'check-rights-risk.mjs')] },
 ]

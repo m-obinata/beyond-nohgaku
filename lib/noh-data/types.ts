@@ -10,6 +10,16 @@ export interface StateLabel {
   state: FourState
 }
 
+export interface AuthorInfo {
+  label: string | null
+  state: FourState
+  /** 確認済 / 異説あり / 複合作者情報 / 不詳 / 要追加文献確認（監査由来） */
+  status?: string | null
+  /** 一説・改作など不確かさの注記があるか */
+  uncertain?: boolean
+  sourceUrl?: string | null
+}
+
 export interface PublicSchool {
   school: string | null
   classification: string | null
@@ -82,7 +92,7 @@ export interface PublicPlay {
   title: string | null
   titleKana: string | null
   titleEn: string | null
-  author: StateLabel
+  author: AuthorInfo
   period: StateLabel
   nohStructure: { code: string | null; label: string | null }
   seasonGeneral: string[]

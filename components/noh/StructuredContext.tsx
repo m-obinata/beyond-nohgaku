@@ -79,7 +79,27 @@ export function StructuredContext({ play }: { play: PublicPlay }) {
         </h3>
         <dl className="mt-2">
           <Row label="作者">
-            <Stated label={play.author.label} state={play.author.state} />
+            {play.author.label ? (
+              <span>
+                {play.author.label}
+                {play.author.uncertain && <span className="text-muted text-micro">（異説あり）</span>}
+                {play.author.status && play.author.status !== '確認済' && (
+                  <span className="text-muted ml-2 text-micro">{play.author.status}</span>
+                )}
+                {play.author.sourceUrl && (
+                  <a
+                    href={play.author.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted hover:text-accent ml-2 align-middle text-micro underline"
+                  >
+                    出典
+                  </a>
+                )}
+              </span>
+            ) : (
+              <Stated label={play.author.label} state={play.author.state} />
+            )}
           </Row>
           <Row label="成立時代">
             <Stated label={play.period.label} state={play.period.state} />

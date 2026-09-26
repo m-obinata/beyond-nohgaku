@@ -143,23 +143,11 @@ function playMonths(p: ReturnType<typeof getAllPlays>[number]): string[] {
   return [...ms]
 }
 
-/* ───────── 作者（表記ゆれを主要人物へ寄せる。不詳・要確認は軸に出さない） ───────── */
-const AUTHOR_FIGURES: [RegExp, string][] = [
-  [/観阿弥/, '観阿弥'],
-  [/世阿弥/, '世阿弥'],
-  [/観世元雅|元雅/, '観世元雅'],
-  [/観世小次郎信光|信光/, '観世信光'],
-  [/金春禅竹|禅竹/, '金春禅竹'],
-  [/宮増/, '宮増'],
-  [/土岐善麿/, '土岐善麿'],
-  [/榎並左衛門/, '榎並左衛門'],
-]
+/* ───────── 作者 ─────────
+ * 監査（data/editorial/authors.json）で正規化済みの作者を、そのまま軸に使う。
+ * 判明していない曲（label が null）は軸に出さない。 */
 function playAuthors(p: ReturnType<typeof getAllPlays>[number]): string[] {
-  const raw = p.author.label
-  if (!raw || /不詳|要確認/.test(raw)) return []
-  const out: string[] = []
-  for (const [re, name] of AUTHOR_FIGURES) if (re.test(raw)) out.push(name)
-  return [...new Set(out)]
+  return p.author.label ? [p.author.label] : []
 }
 
 /* ───────── 原典（出典名 → 主要な作品・典拠にまとめる） ─────────

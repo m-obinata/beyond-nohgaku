@@ -12,6 +12,8 @@ function main() {
   const slugs = readJson(join(PATHS.editorial, 'slugs.json')).map
   const pubStatus = readJson(join(PATHS.editorial, 'publication-status.json')).map
   const webText = readJson(join(PATHS.editorial, 'web-text.json')).blocks
+  // 作者監査（あれば公開データの作者を上書きする）
+  const authors = readJson(join(PATHS.editorial, 'authors.json'), { map: {} }).map
   const structureLabel = Object.fromEntries(
     Object.values(readJson(join(PATHS.dictionaries, 'noh-structure.json')).map).map((v) => [v.code, v.label]),
   )
@@ -28,13 +30,24 @@ function main() {
     const slug = slugs[p.id]?.slug ?? 'play-' + p.id.toLowerCase()
     const status = pubStatus[p.id] ?? { summaryStatus: 'withheld', hasArticle: false }
 
+    const aud = authors[p.id]
+    const author = aud
+      ? {
+          label: aud.author,
+          state: aud.state,
+          status: aud.status ?? null, // 確認済 / 異説あり / 複合作者情報 / 不詳 / 要追加文献確認
+          uncertain: !!aud.uncertain,
+          sourceUrl: aud.sourceUrl ?? null,
+        }
+      : { label: p.author.raw, state: p.author.state }
+
     const pub = {
       id: p.id,
       slug,
       title: p.title,
       titleKana: p.titleKana,
       titleEn: p.titleEn && p.titleEn !== '要確認' ? p.titleEn : null,
-      author: { label: p.author.raw, state: p.author.state },
+      author,
       period: { label: p.period.raw, state: p.period.state },
       nohStructure: p.nohStructure.canonical
         ? { code: p.nohStructure.canonical, label: structureLabel[p.nohStructure.canonical] ?? p.nohStructure.raw }
